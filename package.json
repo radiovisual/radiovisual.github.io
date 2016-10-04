@@ -1,0 +1,44 @@
+{
+  "name": "web-dev-boilerplate",
+  "version": "1.0.0",
+  "description": "An opininated web development boilerplate",
+  "main": "gulpfile.js",
+  "scripts": {
+    "setup": "node ./internals/scripts/setup.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radiovisual/web-dev-boilerplate.git"
+  },
+  "keywords": [
+    "opininated",
+    "web",
+    "development",
+    "boilerplate"
+  ],
+  "author": {
+    "name": "Michael Wuergler",
+    "email": "senjudev@gmail.com",
+    "url": "http://numetriclabs.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/radiovisual/web-dev-boilerplate/issues"
+  },
+  "homepage": "https://github.com/radiovisual/web-dev-boilerplate#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.16.1",
+    "chalk": "^1.1.3",
+    "dotenv": "^2.0.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "gulp-uglifycss": "^1.0.6",
+    "gulp-util": "^3.0.7",
+    "readline": "^1.3.0",
+    "shelljs": "^0.7.4",
+    "vinyl-ftp": "^0.5.0"
+  }
+}
