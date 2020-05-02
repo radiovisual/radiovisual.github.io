@@ -1,5 +1,5 @@
 'use strict';
-require('dotenv').config();
+require('dotenv').config({silent:true});
 
 var ftp = require('vinyl-ftp');
 var gutil = require('gulp-util');
@@ -8,6 +8,7 @@ var gulp = require('gulp');
 var uglifycss = require('gulp-uglifycss');
 var concat = require('gulp-concat');
 var sass = require('gulp-sass');
+var uglify = require('gulp-uglify');
 
 /**
  * Concat/minify all SASS files into a single css file.
@@ -50,19 +51,28 @@ gulp.task('browser-sync', function () {
 	});
 	gulp.watch(['./dist/**/*.html'], ['reload']);
 	gulp.watch(['./dist/css/*.css'], ['reload']);
-	gulp.watch(['./dist/sass/*.scss'], ['reloadsass']);
+	gulp.watch(['./dist/sass/*.scss'], ['reload']);
 	gulp.watch(['./dist/js/*.js'], ['reload']);
 });
 
-gulp.task('reload', function () {
+gulp.task('reload', ['js', 'sass'], function () {
 	browserSync.reload();
+});
+
+gulp.task('js', function() {
+	return gulp.src(['./dist/js/main.js'])
+		.pipe(uglify({
+			mangle: true
+		}))
+		.pipe(concat('main.min.js'))
+		.pipe(gulp.dest('./dist/js/'));
 });
 
 /**
  * Send your website files to the server via FTP
  *
  */
-gulp.task('ftp', function () {
+gulp.task('ftp', ['build-deps', 'js', 'sass'], function () {
 	var conn = ftp.create({
 		host:     process.env.FTP_HOST,
 		user:     process.env.FTP_USER,
@@ -71,7 +81,8 @@ gulp.task('ftp', function () {
 		log:      gutil.log
 	});
 	var globs = [
-		'dist/**/*'
+		'dist/**/*',
+		'!archive/*'
 	];
 	// using base = '.' will transfer everything to /public_html correctly
 	// turn off buffering in gulp.src for best performance
@@ -79,3 +90,9 @@ gulp.task('ftp', function () {
 		.pipe(conn.newer('/')) // only upload newer files
 		.pipe(conn.dest('/'));
 });
+
+/**
+ * The default task (called when you run `gulp` from cli)
+ *
+ */
+gulp.task('default', ['sass', 'browser-sync']);

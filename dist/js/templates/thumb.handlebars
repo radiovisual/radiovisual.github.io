@@ -1,0 +1,29 @@
+<div class="thumb" data-index="{{index}}">
+  <img class="mobile-launch-btn" src="{{img}}" alt="{{title}}">
+  <div class="preloader"></div>
+  <div class="overlay" style="background-color:{{color}};">
+    <div class="thumb-info">
+        <b>{{title}}</b>
+        <p>{{type}}</p>
+        <div class="plus"><i class="fa fa-plus-circle" aria-hidden="true"></i></div>
+    </div>
+  </div>
+
+    <div class="text_wrapper">
+        {{#if url}}
+            <p class="mobile-only tap-notice"><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i> Tap image to launch</p>
+        {{else}}
+            <p class="mobile-only tap-notice"><i class="fa fa-times-circle-o" aria-hidden="true"></i> Offline</p>
+        {{/if}}
+
+        {{#if url}}
+            <a href="{{url}}" {{#if rel}}rel="{{rel}}" class="fancybox"{{else}}target="_blank"{{/if}}><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i> Launch</a>
+        {{else}}
+            <a href="#" class="offline"><i class="fa fa-times-circle-o" aria-hidden="true"></i> Offline</a>
+        {{/if}}
+        <h1>{{title}}</h1>
+        <small>{{type}}</small>
+        <p>{{description}}</p>
+        <p class="techs"><b>Technologies:</b> {{techs}}</p>
+    </div>
+</div>

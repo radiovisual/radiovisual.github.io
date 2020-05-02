@@ -1,0 +1,4 @@
+#speech_bubble { /* TODO: add opacity support for le IE 9*/ }
+
+#countdown-wrapper { display: none;}
+#countdown-wrapper-ie8 { display: block; margin:35px 0 55px 0;  }

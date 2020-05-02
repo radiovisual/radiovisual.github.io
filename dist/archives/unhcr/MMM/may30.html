@@ -1,0 +1,911 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>UNHCR | SYRIA : MULTIMEDIA MEMO </title>
+
+<link href="css/fonts.css" rel="stylesheet" type="text/css" />
+<link href="css/mmm30styles.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+
+<link href="js/mediabox/mediaboxAdv-Light.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/mediabox/mootools-1.2.5-core-jm.js"></script>
+<script src="js/mediabox/mediaboxAdv.js" type="text/javascript"></script>
+
+<script src="js/modernizer.js" type="text/javascript"></script>
+
+
+<script src="js/jquery.easing.names.js" type="text/javascript"></script>
+<script src="js/jquery.scrollTo-1.4.2-min.js" type="text/javascript"></script>
+<script src="js/localscroll.js" type="text/javascript"></script>
+
+<script src="js/main.js" type="text/javascript"></script>
+
+<!-- TO ADD: -->
+
+<script type="text/javascript">
+	$(document).ready(function(e) {
+	
+	  //$('#photo_video_left_col').height($('#photo_video_right_col').height());
+	  
+	  
+	  var pv_height;
+	  if( $('#photo_video_left_col').height() > $('#photo_video_right_col').height() ){
+			pv_height =  $('#photo_video_left_col').height(); 
+		} else {
+			pv_height =  $('#photo_video_right_col').height(); 	
+		}
+		
+	  $('#photo_video_left_col').height(pv_height);
+	  $('#photo_video_right_col').height(pv_height);
+	  
+	  var sm_height;
+	  if( $('#social_media_left').height() > $('#social_media_right').height() ){
+			sm_height =  $('#social_media_left').height(); 
+		} else {
+			sm_height =  $('#social_media_right').height(); 	
+		}
+		console.log(sm_height);
+	  $('#social_media_left').height(sm_height);
+	  $('#social_media_right').height(sm_height);
+	  
+      $('.thumb_frame').hover(
+	  	function(){
+			$(this).find('.thumb_description').slideDown();	
+		}, 
+		function(){
+			$(this).find('.thumb_description').slideUp();
+		});
+		
+	$('.the_tweet').each(function(){
+		$(this).find('a').prop("target", "_blank");	
+	});
+	
+	$('.social_photo').hover(
+		
+		function(){
+			var coverage = $(this).find('.coverage');
+			$(this).find('.social_description').fadeIn(); 
+			coverage.stop();
+			coverage.animate({ top: '2px'}, 300); 	
+		}, 
+		
+		function(){
+			var coverage = $(this).find('.coverage'); 
+			$(this).find('.social_description').fadeOut(); 
+			coverage.stop();
+			coverage.animate({ top: '-28px'}, 300); 	
+		}
+	);
+		
+		
+	$('.thumb_frame').hover(
+		function(){ 
+			var coverage = $(this).find('.coverage');
+			$(this).find('.pv_description').fadeIn();
+			coverage.stop();
+			coverage.animate({ top: '2px'}, 300);  
+			
+			}, 
+		function(){ 
+			var coverage = $(this).find('.coverage');
+			$(this).find('.pv_description').fadeOut();
+			coverage.stop();
+			coverage.animate({ top: '-28px'}, 300); 
+			}
+		);	
+		
+	$('#added_text a').click(function(e){
+		e.preventDefault();	
+		$('#coming_soon').stop().fadeIn("slow", function(){ $(this).click(function(){ $('#coming_soon').stop(); $('#coming_soon').fadeOut("fast"); })});
+	});
+	
+	$('.pv_photo_icon').click(function(e){
+		e.preventDefault();
+		var url = $(this).parent().parent().find('a').prop('href');
+		window.open(url, "_blank");	
+	});
+	
+	$('.pv_video_icon').click(function(e){
+		e.preventDefault();
+		var url = $(this).parent().parent().find('a').prop('href');
+		window.open(url, "_blank");	
+	});
+	
+	
+	/*
+	$('.location_ul li').hover(
+		function(){
+			var self = $(this);
+			$('.thumb_frame').each(function(index){
+				var coverage = $(this).find('.coverage');
+				if (coverage.text() == self.text().toUpperCase()){
+				coverage.stop().animate({ top: '2px'}, 300);	
+				}	
+			});
+		}, 
+		function(){
+			$('.thumb_frame').each(function(index){
+				var coverage = $(this).find('.coverage');				
+				coverage.stop().animate({ top: '-22px'}, 300);	
+			});
+		}
+	);
+	*/
+	
+  }); // end document ready
+  
+  
+  
+</script>
+
+<style type="text/css">
+#key_messages{ background-image:url(media/may30/key_messages_full.jpg); height:360px; width:100%; position:relative; }
+#marquee_photo { width:686px; height:396px; overflow:hidden; background-image:url(media/may30/marquee-highlight-image.jpg); background-repeat:no-repeat; background-position:0px 0px;}
+</style>
+<!--[if lt IE 8]>
+	<link rel="stylesheet" type="text/css" href="css/ie7.css">
+<![endif]-->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-40866481-1', 'unhcrmedia.org');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+
+<body>
+
+<div id="old_ie" style="display:none;" >It appears you are using an outdated version of Internet Explorer. Some features of this site may not work correctly.<br/>We recommend that you <a href="https://www.google.com/intl/en/chrome/browser/" target="_blank">Download Google Chrome</a> or <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie" target="_blank">Upgrade Internet Explorer</a></div>
+
+
+<div id="archive_bar">
+	<div id="last_weeks_memo">
+    	<a href="may23.html"></a>
+    </div>
+    
+    <div id="next_weeks_memo">
+    	<a href="jun06.html"></a>
+    </div>
+    
+    
+</div>
+
+<div id="wrapper">
+	<div id="container" class="box_shadow">
+    	<div id="header" class="group">
+        	<div id="header_left">
+            	<div id="header_left_top">
+                	<img src="assets/images/header-banner.jpg" width="294" height="338" alt="" />
+                </div><!-- header_left_top --> 
+                <div id="header_left_bottom">
+                	<div class="header_date" id="start_date">
+                    	<span class="month">MAY</span>30</div>
+                    <div class="header_date" id="end_date">
+                    	<span class="month">JUN</span>06</div>
+                </div><!-- header_left_bottom -->
+            </div><!-- header left -->
+            
+            <div id="header_right">
+            	<div id="marquee_photo"></div><!-- marquee photo -->
+               <div id="marquee_caption_frame">
+               	<p><span class="caption lg2">A young mother crosses the Syrian border and becomes a refugee. <a href="http://www.flickr.com/photos/unhcr/8969581960/" target="_blank">view on flickr</a></span></p>
+               </div><!-- marquee caption --> 
+            </div><!-- header_right -->
+        </div><!-- header -->
+        
+        
+        
+        <!-- PHOTO / VIDEO -->
+        <div id="photo_video" class="group">
+        	<div id="photo_video_left_col" >             
+              
+                    <div class="loc_header text_shadow_black">WITH COVERAGE FROM:</div>
+                    <ul class="location_ul">
+                        <li>Syria</li>
+                        <li>Lebanon</li>
+                        <li>Jordan</li>
+                        <li>Turkey</li>
+                        <li>Iraq</li>
+                        <li>Greece</li>
+                    </ul>
+                    
+                    <div class="theme_header text_shadow_black">THEMES:</div>
+                    <p>Refugees, Men, Women, Children, Education, Hope, Play, Shelter, Sanitation, Health, Border, Elderly</p>
+                    
+              		<div id="added_items" class="group">
+                    	<div id="added_number">24</div>
+                        <div id="added_text">items added to the<br/><a href="#">UNHCR Media Library</a></div>
+                    </div><!-- added items -->
+                 	
+                    <br/>
+                    
+                    <div id="more_wrapper">
+                    <div id="more_photos" class="group">
+                    	<div class="more_header">MORE UNHCR PHOTOS</div>
+                         <a href="https://www.facebook.com/UNHCR/photos_stream" target="_blank"><img src="assets/images/facebook-icon.png" alt="" /></a>
+                         <a href="http://www.flickr.com/photos/unhcr/" target="_blank"><img src="assets/images/flickr-icon.png" alt="" /></a>
+                         <a href="http://instagram.com/unrefugees/" target="_blank"><img src="assets/images/instagram-icon.png" alt="" /></a>
+                         <a href="http://pinterest.com/refugees/" target="_blank"><img src="assets/images/pinterest-icon.png" alt="" /></a>
+                         <a href="https://witness.guardian.co.uk/assignment/5167c90ce4b06bae4b7cdb93" target="_blank"><img src="assets/images/guardian-witness-icon.png" alt="" /></a>
+                    </div><!-- more photos -->
+                    
+                     <div id="more_videos" class="group">
+                    	<div class="more_header">MORE UNHCR VIDEOS</div>
+                         <a href="http://www.youtube.com/unhcr" target="_blank"><img src="assets/images/youtube-icon.png" alt="" /></a>
+                         <a href="http://vimeo.com/unhcr" target="_blank"><img src="assets/images/vimeo-icon.png" alt="" /></a>
+                     
+                    </div><!-- more photos -->                    
+                    </div><!-- more wrapper -->
+                    
+                    
+                 
+            </div><!-- photo_video_left_col -->
+            
+            <div id="photo_video_right_col">
+            	
+                <div id="photo_video_thumbnail_grid" class="group">
+                
+               
+               
+                <div class="thumb_frame">
+                	<img src="media/may30/th-15.jpg" alt="" />
+                    <div class="pv_description">                        
+                        	<div class="pv_photo_icon"></div><!-- sm_photo_icon -->
+                            <div class="pv_overlay_links">
+                            <div class="gallery_media"></div>                              
+                                <a href="http://instagram.com/p/aMDQVqiy00/" target="_blank">instagram</a>                                  
+                            </div><!-- sm_overlay_links -->                            
+                     </div><!--pv_description -->
+                     <div class="coverage LEBANON"><p>LEBANON</p></div>
+                </div> <!-- thumb_frame -->
+                
+                <div class="thumb_frame">
+                	<img src="media/may30/th-8.jpg" alt="" />
+                    <div class="pv_description">                        
+                        	<div class="pv_photo_icon"></div><!-- sm_photo_icon -->
+                            <div class="pv_overlay_links">
+                            <div class="gallery_media"></div>                              
+                                <a href="https://witness.guardian.co.uk/assignment/5167c90ce4b06bae4b7cdb93/340605" target="_blank">guardian witness</a>                                  
+                            </div><!-- sm_overlay_links -->                            
+                     </div><!--pv_description -->
+                     <div class="coverage LEBANON"><p>LEBANON</p></div>
+                </div> <!-- thumb_frame -->
+                
+                <div class="thumb_frame">
+                	<img src="media/may30/th-11.jpg" alt="" />
+                    <div class="pv_description">                        
+                        	<div class="pv_photo_icon"></div><!-- sm_photo_icon -->
+                            <div class="pv_overlay_links">
+                            <div class="gallery_media"></div>                              
+                                <a href="https://witness.guardian.co.uk/assignment/5167c90ce4b06bae4b7cdb93/334001" target="_blank">guardian witness</a>                                  
+                            </div><!-- sm_overlay_links -->                            
+                     </div><!--pv_description -->
+                     <div class="coverage LEBANON"><p>LEBANON</p></div>
+                </div> <!-- thumb_frame -->
+                
+                
+                 <div class="thumb_frame">
+                	<img src="media/may30/th-14.jpg" alt="" />
+                    <div class="pv_description">                        
+                        	<div class="pv_photo_icon"></div><!-- sm_photo_icon -->
+                            <div class="pv_overlay_links">
+                            <div class="gallery_media"></div>                              
+                                <a href="https://witness.guardian.co.uk/assignment/5167c90ce4b06bae4b7cdb93/339508" target="_blank">guardian witness</a>                                  
+                            </div><!-- sm_overlay_links -->                            
+                     </div><!--pv_description -->
+                     <div class="coverage LEBANON"><p>LEBANON</p></div>
+                </div> <!-- thumb_frame -->
+                
+                
+                  <div class="thumb_frame">
+                	<img src="media/may30/th-12.jpg" alt="" />
+                    <div class="pv_description">                        
+                        	<div class="pv_photo_icon"></div><!-- sm_photo_icon -->
+                            <div class="pv_overlay_links">
+                            <div class="gallery_media"></div>                              
+                                <a href="https://witness.guardian.co.uk/assignment/5167c90ce4b06bae4b7cdb93/333992" target="_blank">guardian witness</a>                                  
+                            </div><!-- sm_overlay_links -->                            
+                     </div><!--pv_description -->
+                     <div class="coverage LEBANON"><p>LEBANON</p></div>
+                </div> <!-- thumb_frame -->
+                
+                 
+                <div class="thumb_frame">
+                	<img src="media/may30/th-5.jpg" alt="" />
+                    <div class="pv_description">                        
+                        	<div class="pv_photo_icon"></div><!-- sm_photo_icon -->
+                            <div class="pv_overlay_links">
+                            <div class="gallery_media"></div>                              
+                                <a href="https://witness.guardian.co.uk/assignment/5167c90ce4b06bae4b7cdb93/332225" target="_blank">guardian witness</a>                                  
+                            </div><!-- sm_overlay_links -->                            
+                     </div><!--pv_description -->
+                     <div class="coverage LEBANON"><p>LEBANON</p></div>
+                </div> <!-- thumb_frame -->
+                
+                
+                 <div class="thumb_frame">
+                	<img src="media/may30/th-17.jpg" alt="" />
+                    <div class="pv_description">                        
+                        	<div class="pv_photo_icon"></div><!-- sm_photo_icon -->
+                            <div class="pv_overlay_links">
+                            <div class="gallery_media"></div>                              
+                                <a href="http://melissarfleming.tumblr.com/post/52131353891/qusayr-refugee-may-god-help-the-people-we-left" target="_blank">tumblr</a>                                  
+                            </div><!-- sm_overlay_links -->                            
+                     </div><!--pv_description -->
+                     <div class="coverage LEBANON"><p>LEBANON</p></div>
+                </div> <!-- thumb_frame -->
+                
+               
+                 <div class="thumb_frame">
+                	<img src="media/may30/th-13.jpg" alt="" />
+                    <div class="pv_description">                        
+                        	<div class="pv_photo_icon"></div><!-- sm_photo_icon -->
+                            <div class="pv_overlay_links">
+                            <div class="gallery_media"></div>                              
+                                <a href="https://witness.guardian.co.uk/assignment/5167c90ce4b06bae4b7cdb93/330358" target="_blank">guardian witness</a>                                  
+                            </div><!-- sm_overlay_links -->                            
+                     </div><!--pv_description -->
+                     <div class="coverage LEBANON"><p>LEBANON</p></div>
+                </div> <!-- thumb_frame -->
+                
+                
+               
+                
+               <div class="thumb_frame">
+                	<img src="media/may30/th-10.jpg" alt="" />
+                    <div class="pv_description">                        
+                        	<div class="pv_photo_icon"></div><!-- sm_photo_icon -->
+                            <div class="pv_overlay_links">
+                            <div class="gallery_media"></div>                              
+                                <a href="https://witness.guardian.co.uk/assignment/5167c90ce4b06bae4b7cdb93/337343" target="_blank">guardian witness</a>                                  
+                            </div><!-- sm_overlay_links -->                            
+                     </div><!--pv_description -->
+                     <div class="coverage LEBANON"><p>LEBANON</p></div>
+                </div> <!-- thumb_frame -->
+                
+                
+                
+                
+                
+                 
+               
+                
+                
+                 
+                
+                  
+              
+             
+                
+                
+                
+                
+                 <div class="thumb_frame">
+                	<img src="media/may30/th-16.jpg" alt="" />
+                    <div class="pv_description">                        
+                        	<div class="pv_photo_icon"></div><!-- sm_photo_icon -->
+                            <div class="pv_overlay_links">
+                            <div class="gallery_media"></div>                              
+                                <a href="https://twitter.com/PanosMoumtzis/status/339725661696565248/photo/1" target="_blank">twitter</a>                                  
+                            </div><!-- sm_overlay_links -->                            
+                     </div><!--pv_description -->
+                     <div class="coverage LEBANON"><p>LEBANON</p></div>
+                </div> <!-- thumb_frame -->
+                
+                
+              <div class="thumb_frame">
+                	<img src="media/may30/th-12.jpg" alt="" />
+                    <div class="pv_description">                        
+                        	<div class="pv_photo_icon"></div><!-- sm_photo_icon -->
+                            <div class="pv_overlay_links">
+                            <div class="gallery_media"></div>                              
+                                <a href="https://witness.guardian.co.uk/assignment/5167c90ce4b06bae4b7cdb93/323652" target="_blank">guardian witness</a>                                  
+                            </div><!-- sm_overlay_links -->                            
+                     </div><!--pv_description -->
+                     <div class="coverage LEBANON"><p>LEBANON</p></div>
+                </div> <!-- thumb_frame -->
+                
+                 
+                 <div class="thumb_frame">
+                	<img src="media/may30/th-1.jpg" alt="" />
+                    <div class="pv_description">                        
+                        	<div class="pv_photo_icon"></div><!-- sm_photo_icon -->
+                            <div class="pv_overlay_links">
+                            <div class="gallery_media"></div>                              
+                                <a href="http://www.flickr.com/photos/unhcr/8969581000/" target="_blank">flickr</a>                                  
+                            </div><!-- sm_overlay_links -->                            
+                     </div><!--pv_description -->
+                     <div class="coverage JORDAN"><p>JORDAN</p></div>
+                </div> <!-- thumb_frame -->
+                
+                     
+                        
+                        
+                     
+               
+            
+             
+             
+             <div class="thumb_frame">
+                	<img src="media/may30/th-3.jpg" alt="" />
+                    <div class="pv_description">                        
+                        	<div class="pv_photo_icon"></div><!-- sm_photo_icon -->
+                            <div class="pv_overlay_links">
+                            <div class="gallery_media"></div>                              
+                                <a href="http://www.flickr.com/photos/unhcr/8969582182/" target="_blank">flickr</a>                                  
+                            </div><!-- sm_overlay_links -->                            
+                     </div><!--pv_description -->
+                     <div class="coverage JORDAN"><p>JORDAN</p></div>
+                </div> <!-- thumb_frame -->    
+           
+                
+              
+                
+                
+                
+                <div class="thumb_frame">
+                	<img src="media/may30/th-6.jpg" alt="" />
+                    <div class="pv_description">                        
+                        	<div class="pv_photo_icon"></div><!-- sm_photo_icon -->
+                            <div class="pv_overlay_links">
+                            <div class="gallery_media"></div>                              
+                                <a href="https://witness.guardian.co.uk/assignment/5167c90ce4b06bae4b7cdb93/341704" target="_blank">guardian witness</a>                                  
+                            </div><!-- sm_overlay_links -->                            
+                     </div><!--pv_description -->
+                     <div class="coverage LEBANON"><p>LEBANON</p></div>
+                </div> <!-- thumb_frame -->
+                
+              
+                  <div class="thumb_frame">
+                	<img src="media/may30/th-7.jpg" alt="" />
+                    <div class="pv_description">                        
+                        	<div class="pv_photo_icon"></div><!-- sm_photo_icon -->
+                            <div class="pv_overlay_links">
+                            <div class="gallery_media"></div>                              
+                                <a href="https://witness.guardian.co.uk/assignment/5167c90ce4b06bae4b7cdb93/341388" target="_blank">guardian witness</a>                                  
+                            </div><!-- sm_overlay_links -->                            
+                     </div><!--pv_description -->
+                     <div class="coverage LEBANON"><p>LEBANON</p></div>
+                </div> <!-- thumb_frame -->    
+                
+                 
+                
+               
+                
+                  
+              
+              
+              
+               
+                
+               
+                
+             
+             
+                
+                
+                   
+                
+                
+                
+                
+             
+                
+                
+             
+                
+                
+               
+              
+                    
+                </div><!-- photo_video_thumbnail_grid -->
+                
+                <!-- <div id="launch_gallery_button"><a href="media/may09/photos/instagram/eujin/eu-8995e522bcc911e2a2d522000a1fb04d_7.jpg" rel="lightbox[lb]" title="">&nbsp;</a> 
+                </div>-->
+                
+            </div><!-- photo_video_right_col -->
+            
+            <div id="photo_video_bottom_seperator">&nbsp;</div><!-- photo_video_bottom_row -->
+            
+            
+            
+        </div><!-- photo_video -->
+        
+        
+        <div id="infographics">
+        	<img src="media/may30/infographics/jun052013.jpg" alt="" />
+        </div><!-- infographics -->
+        <div id="infographics_retweet">
+        	<p><a href="https://twitter.com/SybellaWilkes/status/342748812424642562" target="_blank"></a></p>
+        </div><!-- infographics retweet -->
+        <div id="infographics_bottom_seperator">&nbsp;</div><!-- infographics_bottom_seperator -->
+        
+        
+        <div id="social_media" class="group">
+        	
+            <div id="social_media_left">
+            	<div id="social_media_header">
+            		<img src="assets/images/social_media_header.png" width="333" height="80" alt="" />
+            	</div><!-- social media header -->
+                
+                <div id="twitter_header">
+                	<img src="assets/images/twitter_header.png" alt="" />
+                </div><!-- twitter_header -->
+                
+                <div id="tweet_frame">
+                
+             
+             
+              <div class="tweet group">
+                    	<div class="tweeter_profile_pic"><img src="assets/images/sybella_wilkes.jpg" alt="" /></div>
+                        <div class="tweet_html">
+                        	<div class="tweet_credits">
+                            	<span class="tweeter_name">Sybella Wilkes</span>
+                                <span class="tweeter_url"><a href="https://twitter.com/SybellaWilkes" target="_blank">@SybellaWilkes</a></span>
+                            </div><!-- tweet_credits -->
+                            <div class="the_tweet">
+                            	 <p class="e-entry-title">Ahmad, who fled <a href="https://twitter.com/search?q=%23Qusair&amp;src=hash" data-query-source="hashtag_click" class="hashtag customisable" dir="ltr" rel="tag">#<b>Qusair</b></a> recently, asked to paint picture of home: 'I give you a blank page. Nothing is left standing' <a href="https://twitter.com/search?q=%23Syria&amp;src=hash" data-query-source="hashtag_click" class="hashtag customisable" dir="ltr" rel="tag">#<b>Syria</b></a></p>
+                            </div><!-- the tweet -->
+                        </div><!-- tweet html -->
+                    </div><!-- tweet -->
+                    
+                    
+             
+              <div class="tweet group">
+                    	<div class="tweeter_profile_pic"><img src="assets/images/melissa_fleming.jpg" alt="" /></div>
+                        <div class="tweet_html">
+                        	<div class="tweet_credits">
+                            	<span class="tweeter_name">Melissa Fleming</span>
+                                <span class="tweeter_url"><a href="https://twitter.com/melissarfleming" target="_blank">@melissarfleming</a></span>
+                            </div><!-- tweet_credits -->
+                            <div class="the_tweet">
+                            	<p class="e-entry-title">Meanwhile, in <a href="https://twitter.com/search?q=%23Turkey&amp;src=hash" data-query-source="hashtag_click" class="hashtag customisable" dir="ltr" rel="tag">#<b>Turkey</b></a>, there are now 400,000 Syrian refugees. 75% are women and kids. <a href="http://t.co/vL5wqvqPJI" class="link media customisable" data-pre-embedded="true" dir="ltr">pic.twitter.com/vL5wqvqPJI</a></p>
+                            </div><!-- the tweet -->
+                        </div><!-- tweet html -->
+                    </div><!-- tweet -->   
+                    
+                  
+                  <div class="tweet group">
+                    	<div class="tweeter_profile_pic"><img src="assets/images/andrew_harper.jpg" alt="" /></div>
+                        <div class="tweet_html">
+                        	<div class="tweet_credits">
+                            	<span class="tweeter_name">Andrew Harper</span>
+                                <span class="tweeter_url"><a href="https://twitter.com/And_Harper" target="_blank">@And_Harper</a></span>
+                            </div><!-- tweet_credits -->
+                            <div class="the_tweet">
+                            	 <p class="e-entry-title">Starting to receive <a href="https://twitter.com/Refugees" class="profile customisable h-card" dir="ltr">@<b class="p-nickname">refugees</b></a> from Al Qusayr <a href="https://twitter.com/search?q=%23Syria&amp;src=hash" data-query-source="hashtag_click" class="hashtag customisable" dir="ltr" rel="tag">#<b>Syria</b></a>. According to new arrivals it took 15 days from fleeing the fighting to reach <a href="https://twitter.com/search?q=%23jordan&amp;src=hash" data-query-source="hashtag_click" class="hashtag customisable" dir="ltr" rel="tag">#<b>jordan</b></a></p>
+                            </div><!-- the tweet -->
+                        </div><!-- tweet html -->
+                    </div><!-- tweet -->
+                    
+                   
+                    <div class="tweet group">
+                    	<div class="tweeter_profile_pic"><img src="assets/images/panos_moumtzis.jpg" alt="" /></div>
+                        <div class="tweet_html">
+                        	<div class="tweet_credits">
+                            	<span class="tweeter_name">Panos Moumtzis</span>
+                                <span class="tweeter_url"><a href="https://twitter.com/PanosMoumtzis" target="_blank">@PanosMoumtzis</a></span>
+                            </div><!-- tweet_credits -->
+                            <div class="the_tweet">
+                            	<p class="e-entry-title">Correction: <a href="https://twitter.com/search?q=%23Zaatari&amp;src=hash" data-query-source="hashtag_click" class="hashtag customisable" dir="ltr" rel="tag">#<b>Zaatari</b></a> camp is in fact the 5th largest city in <a href="https://twitter.com/search?q=%23Jordan&amp;src=hash" data-query-source="hashtag_click" class="hashtag customisable" dir="ltr" rel="tag">#<b>Jordan</b></a> hosting some 120,000 <a href="https://twitter.com/search?q=%23Syrian&amp;src=hash" data-query-source="hashtag_click" class="hashtag customisable" dir="ltr" rel="tag">#<b>Syrian</b></a> refugees. <a href="http://t.co/5RmpvPoaQq" class="link media customisable" data-pre-embedded="true" dir="ltr">pic.twitter.com/5RmpvPoaQq</a></p>
+                            </div><!-- the tweet -->
+                        </div><!-- tweet html -->
+                    </div><!-- tweet --> 
+                    
+                    
+                   
+                    <div class="tweet group">
+                    	<div class="tweeter_profile_pic"><img src="assets/images/unhcr_twitter.jpg" alt="" /></div>
+                        <div class="tweet_html">
+                        	<div class="tweet_credits">
+                            	<span class="tweeter_name">UN Refugee Agency</span>
+                                <span class="tweeter_url"><a href="https://twitter.com/Refugees" target="_blank">@Refugees</a></span>
+                            </div><!-- tweet_credits -->
+                            <div class="the_tweet">
+                            	<p class="e-entry-title">If you share 1 thing today, make it Dounia (the world) &amp; baby Ahmed's story <a href="http://t.co/zamnBWQoZS" rel="nofollow" dir="ltr" data-expanded-url="http://rfg.ee/lC6Jl" class="link customisable" target="_blank" title="http://rfg.ee/lC6Jl"><span class="tco-hidden">http://</span><span class="tco-display">rfg.ee/lC6Jl</span><span class="tco-hidden"></span><span class="tco-ellipsis"><span class="tco-hidden">&nbsp;</span></span></a> <a href="https://twitter.com/SybellaWilkes" class="profile customisable h-card" dir="ltr">@<b class="p-nickname">SybellaWilkes</b></a> <a href="https://twitter.com/GuardianWitness" class="profile customisable h-card" dir="ltr">@<b class="p-nickname">guardianwitness</b></a> <a href="https://twitter.com/search?q=%23Syria&amp;src=hash" data-query-source="hashtag_click" class="hashtag customisable" dir="ltr" rel="tag">#<b>Syria</b></a></p>
+                            </div><!-- the tweet -->
+                        </div><!-- tweet html -->
+                    </div><!-- tweet -->
+                    
+                    
+                    
+                    
+                       
+                    
+             
+               <div class="tweet group">
+                    	<div class="tweeter_profile_pic"><img src="assets/images/dana_sleiman.jpg" alt="" /></div>
+                        <div class="tweet_html">
+                        	<div class="tweet_credits">
+                            	<span class="tweeter_name">Dana Sleiman</span>
+                                <span class="tweeter_url"><a href="https://twitter.com/DanaSleiman" target="_blank">@DanaSleiman</a></span>
+                            </div><!-- tweet_credits -->
+                            <div class="the_tweet">
+                            	<p class="e-entry-title">Ali's father begged me to take a <a href="https://twitter.com/search?q=%23photo&amp;src=hash" data-query-source="hashtag_click" class="hashtag customisable" dir="ltr" rel="tag">#<b>photo</b></a> of his son to show the world how innocent people are dying in <a href="https://twitter.com/search?q=%23Syria&amp;src=hash" data-query-source="hashtag_click" class="hashtag customisable" dir="ltr" rel="tag">#<b>Syria</b></a> <a href="https://twitter.com/search?q=%23Qusair&amp;src=hash" data-query-source="hashtag_click" class="hashtag customisable" dir="ltr" rel="tag">#<b>Qusair</b></a> <a href="http://t.co/AtX8xGDvBv" class="link media customisable" data-pre-embedded="true" dir="ltr">pic.twitter.com/AtX8xGDvBv</a></p>
+                            </div><!-- the tweet -->
+                        </div><!-- tweet html -->
+                    </div><!-- tweet -->
+                    
+                   
+                   
+                    
+                    
+                   
+                   
+                 
+                     
+                   
+                   
+                    
+                    
+                        
+                
+              
+                
+                
+                 
+                    
+                    
+                
+                
+                
+                
+                
+                
+                
+               
+                
+                
+                
+                
+                  
+                    
+                    
+                    
+                    
+                    
+                    
+                  
+           
+                    
+                   
+                    
+                     
+                   
+                    
+                    
+                
+                
+                	
+                
+                
+                	
+                    
+                    
+                    
+                    
+                 
+                    
+                   
+                    
+                   <div class="tweet_gap">&nbsp;</div>
+                   
+                    
+                     
+                 
+             
+                    
+                    
+                </div><!-- tweet_frame -->
+            
+            
+            <div id="unhcr_social_media">
+            	
+                <div class="sm_icons">
+                    <a href="https://www.facebook.com/UNHCR" target="_blank"><img src="assets/images/facebook-icon.png" alt=""/></a>
+                    <a href="https://twitter.com/Refugees" target="_blank"><img src="assets/images/twitter-icon.png" alt=""/></a>
+                     <a href="http://www.youtube.com/user/unhcr" target="_blank"><img src="assets/images/youtube-icon.png" alt=""/></a>
+                     <a href="http://www.flickr.com/photos/unhcr/" target="_blank"><img src="assets/images/flickr-icon.png" alt=""/></a>
+                     <a href="https://plus.google.com/+UNHCR/posts" target="_blank"><img src="assets/images/googleplus-icon.png" alt=""/></a>
+                     <a href="http://pinterest.com/refugees/" target="_blank"><img src="assets/images/pinterest-icon.png" alt=""/></a>
+                     <a href="http://instagram.com/unrefugees/" target="_blank"><img src="assets/images/instagram-icon.png" alt=""/></a>
+                     <a href="https://witness.guardian.co.uk/assignment/5167c90ce4b06bae4b7cdb93" target="_blank"><img src="assets/images/guardian-witness-icon.png" alt="" /></a>
+                 </div><!-- sm_icons -->
+                 <h5>&lt; UNHCR SOCIAL MEDIA</h5>
+            </div><!-- unhcr social media -->    
+            </div><!-- social_media_left -->
+            	
+            <div id="social_media_right">
+            	
+                    
+                    
+                 
+                   <a href="https://www.facebook.com/photo.php?fbid=10152000037278438&set=a.113847718437.119729.13204463437&type=1&theater" target="_new">
+                   		<img src="media/may30/facebook2.jpg" alt="" width="461" height="810" />
+                   </a>
+                  
+                    
+                    
+                  
+                    
+                    
+                 
+                    
+                       
+               
+                    
+                  
+                    
+                    
+                
+                     
+                    
+                    
+                     
+                
+                    
+                      
+                  
+                   
+                    
+                    
+                    
+     
+                    
+                  
+            
+                     
+                     
+                     
+                 
+                  
+            </div><!-- social_media_right --> 
+        
+        </div><!-- social_media -->
+        
+        <div id="unhcr_news_and_features">
+        	<div id="news_features_header">&nbsp;</div><!-- news_features_header -->
+           
+           
+           
+               <div class="news_entry">
+            	<div class="news_title">
+                	<a href="http://melissarfleming.tumblr.com/post/52131353891/qusayr-refugee-may-god-help-the-people-we-left" target="_blank">Qusayr refugee - &quot;May God help the people we left behind.&quot;</a>
+                </div><!-- news title -->                
+                <div class="the_news">
+                	<div class="news_credits"><span class="news_by">by Melissa Fleming</span> <span class="by_organization">via Spotlight Refugees</span></div>
+                    <p>We at UNHCR gravely fear for the safety people trapped and attempting to flee Qusayr, a besieged town in Syria.
+
+My colleagues in Lebanon spoke to several refugees who had managed to escape there, many arriving in the town of Arsal in the Bekaa valley. They spoke of an extremely difficult journey, made on foot. They said that fighters were targeting people as they attempt to flee. No route out of Qusayr is considered safe, and there are reports that between 700 and 1500 injured civilians are trapped in the city.
+
+They say it is particularly perilous to flee with men, who are at heightened risk of being arrested or killed at checkpoints along the way. None of the refugees was able or willing to identify those who are manning the checkpoints. From one woman, we heard that people in Qusayr are faced with a stark choice: &quot;you leave and risking being killed by a bomb, or you stay and facing a certainty of being killed.&quot;...<a href="http://melissarfleming.tumblr.com/post/52131353891/qusayr-refugee-may-god-help-the-people-we-left" target="_blank" class="news_read_more">READ MORE</a></p>
+                </div><!-- the news -->
+                
+            </div><!-- news entry --> 
+            
+            
+             <div class="news_entry">
+            	<div class="news_title">
+                	<a href="http://www.unhcr.org/51b09da56.html" target="_blank">UNHCR welcomes European Union's €400 million donation for Syria crisis</a>
+                </div><!-- news title -->                
+                <div class="the_news">
+                	<div class="news_credits"><span class="news_by">by UNHCR</span> <span class="by_organization">via unhcr.org</span></div>
+                    <p>UN High Commissioner for Refugees António Guterres today welcomed the European Union's announcement of a major new contribution of up to €400 million for the Syria situation until the end of the year.
+
+The funding announced by the EU is among the largest so far to the Syria crisis by any donor. The €400 million is expected to go towards the regional refugee response as well as humanitarian needs inside Syria. UNHCR understands that €150 million is allotted for development-related aid that includes support to communities hosting refugees and security for refugee camps...<a href="http://www.unhcr.org/51b09da56.html" target="_blank" class="news_read_more">READ MORE</a></p>
+                </div><!-- the news -->
+                
+            </div><!-- news entry --> 
+            
+             
+              <div class="news_entry">
+            	<div class="news_title">
+                	<a href="http://www.unhcr.org/51af369b9.html" target="_blank">A Refugee's Journey: Ahmed is happy to be alive and starting a family</a>
+                </div><!-- news title -->                
+                <div class="the_news">
+                	<div class="news_credits"><span class="news_by">by UNHCR</span> <span class="by_organization">via unhcr.org</span></div>
+                    <p>There is a part of Ahmed that doesn't miss the prosperity and possessions that he left behind, including his library of law books and the volumes of poetry that he read during evenings of leisure. He does not regret folding up a lucrative criminal law practice in the western Syrian city of Hama before escaping the hell of Syria's conflict.
+
+The 34-year-old left Syria early morning last August 28 and fled to Lebanon. The final straw was when his mother, worried about his safety, broke down in tears and begged him to leave. This was a few days after Ahmed's home was obliterated by artillery shells and then set on fire.
+
+But, despite the death, detentions and violence, Ahmed still lives. He has his health and strength, and his wife and their baby daughter, who is nearly two months old now...<a href="http://www.unhcr.org/51af369b9.html" target="_blank" class="news_read_more">READ MORE</a></p>
+                </div><!-- the news -->
+                
+            </div><!-- news entry --> 
+            
+             
+        
+        
+         <div class="news_entry">
+            	<div class="news_title">
+                	<a href="http://www.unhcr.org/51adb9a02.html" target="_blank">Refugees from embattled Syrian town report harsh conditions, difficulties in reaching safety</a>
+                </div><!-- news title -->                
+                <div class="the_news">
+                	<div class="news_credits"><span class="news_by">by UNHCR</span> <span class="by_organization">via unhcr.org</span></div>
+                    <p>The UN refugee agency on Tuesday said it has been seeing small numbers of refugees arriving in eastern Lebanon after escaping from the embattled Syrian town of Al Qusayr, where heavy fighting flared up three weeks ago.
+
+The refugees, mostly women and children, have told UNHCR staff that the strategically located town in western Syria has been badly damaged and the living conditions are extremely difficult. They said the route to Lebanon was dangerous and it was unsafe to travel with men.
+
+"From the handful of interviews we have done so far, it appears that a new route for displaced people has opened up from the Qusayr area towards Arsal in Lebanon, about 100 kilometres away," UNHCR spokesperson Melissa Fleming told journalists in Geneva. "Some of those forced out of Qusayr by the fighting are fleeing into Lebanon as refugees, while others are being displaced internally to towns, including Rankous, Dahel, Qara, Flita and Nabek," she added...<a href="http://www.unhcr.org/51adb9a02.html" target="_blank" class="news_read_more">READ MORE</a></p>
+                </div><!-- the news -->
+                
+            </div><!-- news entry --> 
+            
+            
+        
+        <div class="news_entry">
+            	<div class="news_title">
+                	<a href="http://www.unhcr.org/51a86fc06.html" target="_blank">UNHCR assesses needs and dire situation of displaced in western Syrian town</a>
+                </div><!-- news title -->                
+                <div class="the_news">
+                	<div class="news_credits"><span class="news_by">by UNHCR</span> <span class="by_organization">via unhcr.org</span></div>
+                    <p>As growing numbers of Syrians leave their country, the UN refugee agency continues to deliver aid to desperate Syrians inside the country amid difficult operational and security challenges.
+
+During a week when the number of Syrian refugees in neighbouring countries passed the 1.6 million mark, UNHCR on Wednesday joined an inter-agency mission guided by the Syrian Arab Red Crescent to assess the situation and needs of internally displaced families in Hasiya, a town of 16,000 in central-western Syria.
+
+"UNHCR was able to witness the dire humanitarian situation of these displaced families," spokesman Dan McNorton told journalists in Geneva, adding that the families hailed from Al Qusayr, some 25 kilometres away...<a href="http://www.unhcr.org/51a86fc06.html" target="_blank" class="news_read_more">READ MORE</a></p>
+                </div><!-- the news -->
+                
+            </div><!-- news entry --> 
+            
+            
+          
+         <div class="news_entry">
+            	<div class="news_title">
+                	<a href="http://www.unhcr.org/51a875859.html" target="_blank">Syrian refugees warily navigate the urban jungle of Amman</a>
+                </div><!-- news title -->                
+                <div class="the_news">
+                	<div class="news_credits"><span class="news_by">by UNHCR</span> <span class="by_organization">via unhcr.org</span></div>
+                    <p>Abdul, a 37-year-old refugee from the northern Syria city of Aleppo, navigates the hardscrabble streets of Amman's Al Ashrafyeh district with watchful suspicion.
+
+The slightly built father of four children, one of whom is sick, is careful not to spend too much time on the street. When he goes outside, he keeps to himself. "I don't interfere with anyone in this neighbourhood," he says. "I don't say anything. I don't deal with them."
+
+There is a clear tension in Al Ashrafyeh, where Syrian families have arrived in search of shelter over the months. This refugee community is far from wealthy and there are concerns about the burden they may represent...<a href="http://www.unhcr.org/51a875859.html" target="_blank" class="news_read_more">READ MORE</a></p>
+                </div><!-- the news -->
+                
+            </div><!-- news entry --> 
+            
+            
+            
+            
+           
+            
+            
+            
+            
+        </div><!-- unhcr_news_and_features -->
+        
+        <div id="unhcr_in_the_news">
+        	<div id="in_the_news_left"></div><!--in_the_news_left -->
+            <div id="in_the_news_right">
+            	<div id="storify_image">
+                	<img src="assets/images/storify.png" width="80" height="28" alt="" />
+                    <p>visit <a href="http://storify.com/unhcrmedia" target="_blank">http://storify.com/unhcrmedia</a> to see the latest roundup of syria/unhcr coverage in the news</p>
+                </div><!-- storify_image -->
+                
+            </div><!--in_the_news_left -->
+        </div><!-- unhcr_in_the_news -->
+        
+        <div id="key_messages">
+        	
+        </div><!-- key messages -->
+    	
+        <div id="footer">
+        	&nbsp;
+        </div><!-- footer -->
+    </div><!-- container -->
+</div><!-- wrapper -->
+
+<div id="coming_soon">
+<div id="cs_img_wrap">
+<img src="assets/images/multimedia-library-coming-soon3.jpg" width="363" height="393"  alt=""/>
+</div>
+</div>
+</body>
+</html>

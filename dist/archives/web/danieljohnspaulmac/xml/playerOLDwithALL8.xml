@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist version="0" xmlns = "http://xspf.org/ns/0/">
+  <trackList>
+	<track>
+      <location>music/If_You_Keep_Losing_Sleep.mp3</location>
+      <annotation>&lt;FONT COLOR ="#CC3333"&gt;
+	  
+	  SILVERCHAIR
+	  
+	  &lt;/FONT&gt;&lt;font color = "#FFFFFF"&gt;
+	  
+	   : If You Keep Losing Sleep (Young Modern)
+	   
+	   &lt;/font&gt; </annotation>
+    </track>
+	
+	<track>
+      <location>music/Sleep_All_Day_Demo.mp3</location>
+      <annotation>&lt;FONT COLOR ="#CC3333"&gt;
+	  
+	  SILVERCHAIR
+	  
+	  &lt;/FONT&gt;&lt;font color = "#FFFFFF"&gt;
+	  
+	   : Sleep All Day (Young Modern)
+	   
+	   &lt;/font&gt; </annotation>
+    </track>
+    
+	<track>
+      <location>music/never_been_before_Paul_Mac_panic_room.mp3</location>
+      <annotation>&lt;FONT COLOR ="#CC3333"&gt;
+	  
+	  PAUL MAC
+	  
+	  &lt;/FONT&gt;&lt;font color = "#FFFFFF"&gt;
+	  
+	   : Never Been Before (Panic Room)
+	   
+	   &lt;/font&gt; </annotation>
+    </track>
+	
+	<track>
+      <location>music/Sunshine Eyes_nick_littlemore_pmac_remix.mp3</location>
+      <annotation>&lt;FONT COLOR ="#CC3333"&gt;
+	  
+	 PAUL MAC
+	  
+	  &lt;/FONT&gt;&lt;font color = "#FFFFFF"&gt;
+	  
+	   : Sunshine Eyes (Nick Littlemore & Paul Mac REMIX) (Panic Room Disc 2)
+	   
+	   &lt;/font&gt; </annotation>
+    </track>
+	
+	<track>
+      <location>music/Black_Tangled_Heart.mp3</location>
+      <annotation>&lt;FONT COLOR ="#CC3333"&gt;
+	  
+	  SILVERCHAIR
+	  
+	  &lt;/FONT&gt;&lt;font color = "#FFFFFF"&gt;
+	  
+	   : Black Tangled Heart (Neon Ballroom)
+	   
+	   &lt;/font&gt; </annotation>
+    </track>
+	<track>
+      <location>music/love_ declaration.mp3</location>
+      <annotation>&lt;FONT COLOR ="#CC3333"&gt;
+	  
+	  PAUL MAC
+	  
+	   &lt;/FONT&gt;&lt;font color = "#FFFFFF"&gt;
+	  
+	  : Love Declaration (Panic Room)
+	  
+	 &lt;/font&gt; </annotation>
+    </track>
+	<track>
+      <location>music/MacGorlz2006.mp3</location>
+      <annotation>&lt;FONT COLOR ="#CC3333"&gt;
+	  
+	  PAUL MAC
+	  
+	  &lt;/FONT&gt;&lt;font color = "#FFFFFF"&gt;
+	  
+	  : Gorillaz "Dirty Harry" Remix
+	  
+	  &lt;/font&gt;</annotation>
+    </track>
+	<track>
+      <location>music/take_her_out.mp3</location>
+      <annotation>&lt;FONT COLOR ="#CC3333"&gt;
+	  
+	  I CANT BELIEVE ITS NOT ROCK!
+	  
+	  &lt;/FONT&gt;&lt;font color = "#FFFFFF"&gt;
+	  
+	   : Take Her Out 
+	   
+	   &lt;/font&gt;</annotation>
+    </track>
+	<track>
+      <location>music/We're_Much_Preferred_Customers.mp3</location>
+      <annotation>&lt;FONT COLOR ="#CC3333"&gt;
+	  
+	  THE DISSOCIATIVES
+	  
+	  &lt;/FONT&gt;&lt;font color = "#FFFFFF"&gt;
+	  
+	   : We're Much Preferred Customers (Live at Enmore Theatre) 
+	   
+	   &lt;/font&gt;</annotation>
+    </track>
+
+  </trackList>
+</playlist>

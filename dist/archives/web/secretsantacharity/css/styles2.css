@@ -1,0 +1,110 @@
+
+
+
+input { margin: 0; padding:0; }
+body { font-family: 'Arvo', serif; margin: 0px; padding: 0px; background-color: #cd2f2a; }
+.signika { font-family: 'Signika', sans-serif; }
+
+#wrapper { width:100%; margin: 0 auto; position: relative; }
+#header { background: url("../images/sky-bg.jpg") no-repeat top left; width: 100%; margin: 0px 0px 100px 0px; position: relative; min-height:700px; background-color: #2750b2; background-size: 100%;  }
+
+#logo { width:100%; height: 179px; padding-top: 50px; }
+#logo img { width: 365px; height: 179px; margin:0px auto; display: block; }
+#header #bg img { width: 100%; height: auto;}
+
+.rounded-corners {
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: none;
+}
+
+#santa-frame { width: 100%; position: absolute; bottom: -50; left: 0px;}
+#snow-bg { width: 100%; height: 326px; max-height: 326px;  position:absolute; bottom:-100px; left:0; background: url("../images/snow-bg.png") no-repeat bottom left; background-size: 100%; z-index:8;}
+#santa { height: 292px; width: 206px; position: absolute; bottom:0px; left: 50%; z-index: 9;}
+#head { width: 206px; height: 172px; position: absolute; top:54px; left: 15px; z-index: 11; }
+#body { width: 168px; height: 120px; position: absolute; bottom:0px; left: 0px; z-index: 10; }
+#mouth { width: 16px; height: 10px; background-image: url("../images/santa-mouths.png"); background-repeat: no-repeat; position: absolute; top:103px; left: 66px; z-index: 12;  }
+
+#bubble_frame { padding-bottom: 20px; }
+#speech_bubble { text-align:center; background-color: rgba(0,0,0,.43); width: 70%; max-width: 700px; padding: 20px; color:#fff; font-size: 15px; margin: 35px auto 240px auto; background-position: 0px 0px;   }
+
+.phoneme1 {  background-position: 0px 0px !important; }
+.phoneme2 {  background-position: -15px 0px !important; }
+.phoneme3 {  background-position: 0px -10px !important; }
+.phoneme4 {  background-position: -15px 12px !important; }
+.phoneme5 {  background-position: 0px -22px !important; }
+.phoneme6 {  background-position: -15px 20px !important; }
+.phoneme7 {  background-position: 0px -31px !important; }
+.phoneme8 {  background-position: -15px 28px !important; }
+.phoneme9 {  background-position: 0px -42px !important; }
+
+p.medium_header {  font-size: 18px; text-align: center; color: #fff; letter-spacing: 2px; display: block; width: 100%; padding: 25px 0px 0px 0px; }
+
+#head img, #body img { width: 100%; height: auto;}
+
+
+
+
+hr { width: 100%; height: 1px; background-color: #a31712; border: none; }
+
+#deadline-header { text-align: center; padding:35px 0 10px 0;  }
+#deadline-header img { width: 60%; height: auto; max-width: 40%; min-width: 300px; display: block; margin: 0 auto;}
+
+.darkredbg{ background-color: #b71a15; }
+
+#countdown-wrapper { width: 335px; margin: 0 auto 45px auto;}
+.countdown_frame { position: relative; display: inline-block; padding: 0px 10px;}
+.cntdwn_num { color: #fff; font-size: 56px; font-family: 'Signika', sans-serif; font-weight: bold; }
+.cntdwn_label { position: absolute; bottom: -18px; left: 0px; color: #df8e8c; font-size: 12px; width: 100%; text-align: center;}
+
+.box_shadow  {-webkit-box-shadow: 5px 5px 3px 0 rgba(0,0,0,.1);
+    box-shadow: 5px 5px 3px 0 rgba(0,0,0,.1);}
+
+#form_wrapper { width: 40%; padding: 20px; margin: 45px auto 15px auto;}
+#form_button { width: 40%; margin: 0 auto; background-color: #fff; color: #b71a15; padding: 10px 20px; text-align: center; font-size: 45px; cursor: pointer;}
+#form_button:hover { background-color: #b71a15; color:white; }
+.form_field { border:none; display:block; background-color:#c23c38; color: white; font-size: 12px; text-align: center; width: 80%; margin: 0px auto 10px auto; padding: 10px; }
+#instructions { background-color: #9d1712; margin-bottom: 10px; font-size: 15px; }
+
+
+#charity_suggestions { margin-top: 44px; color:white; text-align: center; font-size: 20px; }
+#charity_suggestions em { font-weight: normal; font-weight: normal; text-emphasis: none; font-size: 14px; font-style: normal; font-family: "Tahoma";}
+#charity_sugg_heading { font-size: 25px; letter-spacing: 0px; padding: 10px 0px; }
+@media only screen and (min-width:1578px) {
+    #snow-bg { background-size: 100%; background-position: 0 13px; }
+}
+
+ul { list-style: none; padding-left: 0px; font-size: 20px; margin-top: 50px; margin-bottom: 50px; text-transform: uppercase;}
+ul a {text-decoration: none; color: white; padding: 5px;}
+ul a:hover {background-color: #b71a15;}
+ul li {padding: 3px;}
+
+#success_notification {  color:#b71a15; text-align: center;}
+#success_notification h4 { }
+#success_notification p {}
+#success_notification strong { display: block; margin-top: 2px; margin-bottom: 15px;}
+
+#number_of_partcipants { color: #cd2f2a; font-size: 35px; text-align: center; padding: 75px 0px 75px; background-color: white; font-weight: 700;}
+#spread_the_word { font-size: 20px; margin-top: 10px; letter-spacing: 3px; font-weight: normal;}
+
+#happy_holiday { color: white; text-align: center; font-size: 100px; letter-spacing: 2px; padding: 50px 0px; }
+
+#player_button_frame { position: absolute; top:20px; right: 0px; width: 51px; height: 35px; z-index: 100;  }
+#player_button { display: inline-block; background-image: url("../images/audio-icon.png"); width: 51px; height: 35px; background-repeat: no-repeat; background-size: 50%; cursor: pointer; }
+#player_frame { position: absolute; top: 0px; left: -200px; }
+#player_button em { display: block; color:red; position: absolute; top:0px; left:2px; text-emphasis: none; font-style: normal;}
+@media only screen and (max-width:934px) {
+    #header { background-size: 300%; }
+}
+@media only screen and (max-width: 468px) {
+    ul { font-size:  14px;}
+    #logo img { width: 80%; height: auto; }
+    #happy_holiday { font-size: 60px;}
+    #header { background-size: 400%; }
+    #form_button {font-size: 35px;}
+}
+
+
+#sharing_footer { height: 100px; background-color: #b71a15; padding-top: 20px;}
+#sharing_frame { width: 193px; margin: 0 auto; }

@@ -1,0 +1,41 @@
+.tableRibbonPics {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	width: 30%;
+	background-color: #FFFFFF;
+	background-image: url(../images/redRibbon.gif);
+	background-repeat: repeat-x;
+	background-position: center;
+}
+.text {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	text-align: center;
+	height: 50px;
+	vertical-align: sub;
+	padding-top: 20px;
+}
+a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #990000;
+	text-decoration: none;
+}
+a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	text-decoration: underline;
+}
+.middlepic {
+	margin: 0px;
+	padding: 0px;
+}
+
+.mainTable {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}

@@ -29,3 +29,9 @@
   -ms-transition: background-color $duration linear;
   transition: background-color $duration linear;
 }
+
+/* reset margins and padding */
+@mixin resetMarginsAndPadding() {
+  padding: 0;
+  margin: 0;
+}

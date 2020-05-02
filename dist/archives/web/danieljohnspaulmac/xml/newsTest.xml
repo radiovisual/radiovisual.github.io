@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<news>
+<section1>
+	<title>This is the first Title for this News Section</title>
+	<date>June 10th 2006</date>
+	<content>Some dude landed on the moon so long ago.</content>
+</section1>
+<section2>
+	<title>This is the second Title for this News Section</title>
+	<date>June 11th 2006</date>
+	<content>Some dude landed on Mars. You betta' recognize.</content>
+</section2>
+
+
+
+
+
+
+
+</news>

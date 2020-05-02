@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<links>
+	<link name="Time Home Entertainment" url="http://www.timehomeentertainmentinc.com/"											roles="Designer,ActionScript 3,XML,HTML,CSS" colab="false" />
+	<link name="Hanna Lovinda Photography" url="http://www.motionincolor.com/archives/hannalovinda/"  							roles="Designer,ActionScript 3,XML,Javascript,HTML,CSS,FlashDevelop" colab="false"/>
+	<link name="Hanna Lovinda Photography (microsite)" url="http://www.hannalovinda.com/"  										roles="Designer,PHP,Javascript,HTML,CSS" colab="false"/>
+	<link name="Anthropology at Ventura College Concept" url="http://www.motionincolor.com/archives/anthropology/anthro_club_demo.html" roles="Designer,PHP,MySQL,HTML,CSS,Photoshop" colab="false"/>
+	<link name="Jonna Myspace Concept" url="http://www.motionincolor.com/archives/jonna/" 																					roles="Designer,HTML,CSS,ActionScript 3, XML" />
+	<link name="Daniel Johns Custom Myspace" url="http://www.motionincolor.com/archives/danieljohns/index_test.html" 										roles="Designer,ActionScript 2,XML,PHP,3D,Photoshop,HTML,CSS" colab="false"/>
+	<link name="Boxtoppers" url="http://www.motionincolor.com/archives/boxtoppers/index.html" 									roles="Designer,ActionScript 2,XML,HTML,CSS,Photoshop" colab="false"/>
+	<link name="Chili Davis Music" url="http://www.motionincolor.com/archives/chilidavismusic/main.html" 						roles="Designer,ActionScript 2,XML,3D,HTML,CSS" colab="false"/>
+	<link name="Genesee Home" url="http://www.geneseehome.org/" 																roles="Designer,PHP,HTML,CSS,ActionScript 3,Photoshop" colab="false"/>
+	<link name="Hathaway Law Firm" url="http://www.hathawaylawfirm.com/" 														roles="Designer,XML,HTML,CSS,ActionScript 2,Photoshop" colab="false"/>
+	<link name="Malbec The Band" url="http://www.motionincolor.com/archives/malbec/" 											roles="Designer,ActionScript 2,PHP,HTML,CSS,Photoshop,3D" colab="false"/>
+	<link name="NFR Natural Beef Concept" url="http://www.motionincolor.com/archives/nfr/" 										roles="Designer,PHP,ActionScript 2,Javascript,HTML,CSS,Photoshop" colab="false"/>
+	<link name="Great Western Insurance" url="http://www.gwic.com/" 															roles="ActionScript 2,HTML,CSS" colab="true" />
+	<link name="Olio E Limone Ristorante" url="http://www.olioelimone.com" 														roles="Designer,HTML,CSS,ActionScript 2" colab="true"/>
+	<link name="Black Cell Security" url="http://www.motionincolor.com/archives/blackcellsecurity/" 							roles="Designer,Photoshop,HTML,CSS" colab="false"/>
+	<link name="Ink Flash Banner" url="http://www.motionincolor.com/archives/ink/" 												roles="Designer,Actionscript 3,XML,HTML,CSS,Photoshop" colab="false"/>
+	<link name="OutlawBB Banner" url="http://www.motionincolor.com/archives/outlawBB/" 											roles="Designer,ActionScript 2,HTML,CSS" colab="false"/>
+	
+	
+	
+	
+</links>

@@ -1,0 +1,178 @@
+body,
+h4,
+#btw,
+h3,
+h2,
+p,
+h1 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+#top_bar {
+    background-color: #636363;
+    height: 14px;
+}
+#top_logo {
+    width: 179px;
+    height: 70px;
+    background-color: #2c2c2c;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+#top_logo b {
+    color: #636363;
+    display: block;
+}
+.shadow {
+    -webkit-box-shadow: 16px 7px 35px -4px rgba(0, 0, 0, 0.43);
+    -moz-box-shadow: 16px 7px 35px -4px rgba(0, 0, 0, 0.43);
+    box-shadow: 16px 7px 35px -4px rgba(0, 0, 0, 0.43);
+}
+h4 {
+    padding-top: 75px;
+}
+.red_font {
+    color: #ec3030;
+}
+#behold {
+    width: 110px;
+    display: block;
+    margin: 25px auto 0px auto;
+    background-color: lightgray;
+    border: dotted 1px #636363;
+    color: #636363;
+    font-size: 12px;
+    padding: 4px 2px 5px 2px;
+}
+#btw {
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 20px;
+    display: block;
+}
+#UC-graphic {
+    width: 481px;
+    height: 496px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 100;
+}
+#UC-graphic img {
+    padding-left: 50px;
+    width: 100%;
+    height: auto;
+}
+#graphics {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+#tape1,
+#tape2 {
+    margin-top: -218px;
+    background-image: url('../images/caution-banner.jpg');
+    width: 200%;
+    height: 37px;
+    background-color: #eddf05;
+    position: absolute;
+    left: -50%;
+}
+#tape1 {
+    background-color: #eddf05;
+    z-index: 99;
+    transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+}
+#tape2 {
+    z-index: 98;
+    transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+}
+h3 {
+    color: #242021;
+    font-size: 18px;
+    font-weight: 700;
+}
+h2 {
+    color: #ec3030;
+    font-size: 31px;
+    font-weight: 700;
+}
+.time-block {
+    width: 520px;
+    margin: 0 auto;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: left;
+    color: #fff;
+}
+.time-black {
+    display: inline-block;
+    background-color: #221e1f;
+    margin-bottom: 5px;
+    width: 342px;
+    text-indent: 8px;
+}
+.time-red {
+    display: inline-block;
+    background-color: #ec3030;
+    margin-left: 5px;
+    width: 150px;
+    text-indent: 8px;
+}
+p {
+    color: #636363;
+    font-size: 12px;
+}
+h1 {
+    font-size: 18px;
+    color: #242021;
+    font-weight: 300;
+    padding-top: 10px;
+}
+#social_media_frame {
+    margin-top: 25px;
+}
+.comic {
+    margin-top: 80px;
+}
+#footer {
+    border-top: solid 10px #242021;
+    background-color: #636363;
+    min-height: 200px;
+    margin-top: 50px;
+}
+#hilarious {
+    font-weight: 900;
+    font-size: 27px;
+    margin-top: 40px;
+    -webkit-transition-property: all;
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+}
+#hilarious_line,
+#hilarious_line_static {
+    font-weight: 300;
+    text-align: center;
+}
+#hilarious_line {
+    display: block;
+    font-size: 18px;
+}
+#also_we_are {
+    font-size: 14px;
+    margin-top: 20px;
+    display: block;
+}
+
+#footnote { background-color: #636363; color:#868686; font-size: 10px; padding: 10px 0px; }

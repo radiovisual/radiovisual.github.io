@@ -4,7 +4,8 @@
   "description": "An opininated web development boilerplate",
   "main": "gulpfile.js",
   "scripts": {
-    "setup": "node ./internals/scripts/setup.js"
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "templates": "handlebars dist/js/templates/thumb.handlebars -f dist/js/vendor/thumb.js --min && handlebars dist/js/templates/detail_wrapper.handlebars -f dist/js/vendor/detail_wrapper.js --min && gulp build-deps"
   },
   "repository": {
     "type": "git",
@@ -26,7 +27,9 @@
     "url": "https://github.com/radiovisual/web-dev-boilerplate/issues"
   },
   "homepage": "https://github.com/radiovisual/web-dev-boilerplate#readme",
-  "dependencies": {},
+  "dependencies": {
+    "fontfaceobserver": "^2.0.5"
+  },
   "devDependencies": {
     "browser-sync": "^2.16.1",
     "chalk": "^1.1.3",
@@ -39,6 +42,15 @@
     "gulp-util": "^3.0.7",
     "readline": "^1.3.0",
     "shelljs": "^0.7.4",
-    "vinyl-ftp": "^0.5.0"
+    "vinyl-ftp": "^0.5.0",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2",
+    "babel-core": "^6.2.1",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-react": "^6.1.18",
+    "babel-preset-stage-1": "^6.1.18",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3"
   }
 }

@@ -1,0 +1,293 @@
+.request_visit_form_table {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #514D4E;
+	width: 635px;
+}
+
+.request_visit_form_table a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color:#993333;
+	text-decoration:none;
+	
+}
+
+.request_visit_form_table a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #847E7E;
+	text-decoration:underline;
+	
+}
+.calendar_dates_table {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #514D4E;
+	background-color: #D8D8D8;
+	width: 450px;
+	border: thin solid #A39B95;
+}
+.calendar_month_td {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #996666;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #E3E3E3;
+	padding-left: 5px;
+	background-color: #BEBAB9;
+	width: 150px;
+}
+.calendar_month_td_nextyear {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #514D4E;
+	background-color: #E3E3E3;
+	padding: 10px;
+	border: thin solid #BEBAB9;
+}
+.calendar_dates {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #514D4E;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 8px;
+}
+.special_alumni_week {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #990000;
+}
+
+
+
+.general_form_text {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #514D4E;
+	padding-top: 5px;
+	padding-bottom: 8px;
+}
+.general_form_text a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #990033;
+	text-decoration: none;
+}
+.general_form_text a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #990033;
+	text-decoration: underline;
+}
+
+.required_text {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #990000;
+}
+
+.not_required_text {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+
+.left_form_col {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	background-color: #FFFFFF;
+	font-weight: bold;
+	padding: 5px;
+	width: 170px;
+	border: 1px solid #CCCCCC;
+}
+.submit_button {
+	font-family: Garamond, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #D6D2D1;
+	background-color: #858180;
+	padding: 5px;
+	border: medium solid #DAD6D5;
+	font-weight: bold;
+}
+.how_did_you_hear_table {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #695E59;
+	padding: 5px;
+	width: 450px;
+	border: thin solid #A59A94;
+}
+
+.input_text {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #847E7E;
+	background-color: #FFFFFF;
+	width: 330px;
+	border: 1px solid #FFFFFF;
+}
+.right_form_col {
+	background-color: #FFFFFF;
+	width: 400px;
+	border: 1px solid #CCCCCC;
+}
+.form_option_selected {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #8F8989;
+}
+
+
+.input_text_month_select{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #847E7E;
+	background-color: #FFFFFF;
+	width: 65px;
+	border: thin solid #9B918D;
+}
+.bedpic_text {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #847E7E;
+}
+.form_question {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #4E4949;
+}
+.empha_text {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #990033;
+}
+.full_question_box {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	width: 400px;
+	height: 75px;
+	color: #847E7E;
+	background-color: #FFFFFF;
+	border: thin solid #9B918D;
+}
+
+
+select, option {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #847E7E;
+}
+
+
+
+.left_form_spacer_col {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #847E7E;
+	background-color: #FFFFFF;
+	font-weight: bold;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	height:20px;
+}
+.input_text_multiline {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #847E7E;
+	background-color: #FFFFFF;
+	width: 420px;
+	height:100px;
+	border: thin solid #FFFFFF;
+	word-wrap: break-word;
+}
+.form_subtext {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #CCCCCC;
+	margin: 0px;
+	padding: 0px;
+}
+.big_text {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #990000;
+	font-weight: bold;
+}
+
+
+
+
+
+.right_form_spacer_col {
+	background-color: #FFFFFF;
+	height:20px;
+}
+
+.form_subtext_dark {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #847E7E;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.initial_box {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #847E7E;
+	background-color: #FFFFFF;
+	width: 30px;
+	border: thin solid #9B918D;
+}
+.how_did_you_hear_table_input {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #695E59;
+	width: 600px;
+	margin: 0px;
+	padding: 0px;
+	background-color: #D8D8D8;
+}
+
+.how_did_you_hear_table_input td{
+	border-bottom-color:#E3E3E3;
+	border-bottom-width: medium;
+	border-bottom-style: solid;
+}
+.how_did_you_hear_table td {
+	width: 211px;
+	padding:0px;
+	height:20px;
+}
+
+.input_text_howhear {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #847E7E;
+	background-color: #FFFFFF;
+	width: 300px;
+	border: thin solid #9B918D;
+	height: 15px;
+}
+.input_text_multiline_big {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #847E7E;
+	background-color: #FFFFFF;
+	width: 630px;
+	height:100px;
+	border: thin solid #CCCCCC;
+	word-wrap: break-word;
+}

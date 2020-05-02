@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>UNHCR Facebook Language Assignments by Country</title>
+    <link rel="stylesheet" href="css/jquery-jvectormap-1.2.2.css" type="text/css" media="screen"/>
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/jquery-jvectormap-1.2.2.min.js"></script>
+    <script src="js/jquery-jvectormap-world-mill-en.js"></script>
+    <!-- <script src="data/facebook_language_assisgnments.js"></script> -->
+    <link href='http://fonts.googleapis.com/css?family=Gudea' rel='stylesheet' type='text/css'>
+
+    <style type="text/css">
+        body { font-family: 'Gudea', sans-serif; }
+        h3 { width: 100%; text-align: center;}
+        #world-map { width: 980px; height: 580px; margin: 0 auto;}
+
+        .code_entry { display:inline-block; width:180px; cursor: pointer;}
+        #color_codes { margin:0 auto; margin-top:15px; width:980px;  padding:20px 0px; background-color: #1e1e1e; color:#fff;}
+        .color{ width:16px; height:16px; display:inline-block; margin:0px 4px;}
+        .x {color:red; display: none;}
+        #color_wrapper { margin-left: 75px;}
+        .numcode { display: none;}
+        #note { font-size: 12px; color:#1e1e1e; width: 980px; text-align: left; margin: 0 auto;}
+    }
+    </style>
+</head>
+<body>
+<div id="wrapper">
+    <h3>UNHCR Facebook Global Page Assignments by Country</h3>
+    <div id="world-map" style="width: 980px; height: 580px"></div>
+
+    <div id="color_codes">
+        <div id="color_wrapper"></div>
+    </div>
+
+    <div id="note"><br/>Note: The borders rendered here are just for illustrative representation. Some areas may not be to proper scale.<br/>
+        Due to unsupported ISO Country codes in this dataset, some areas on this map are not properly represented.<br/>
+    The unrepresented areas of Kosovo, Cypress, Western Sahara and Somaliland all default to english.</div>
+<script>
+
+    var active_filter;
+    // The following variable is fed to the JVectorMaps plugin.
+    // It is following the format of COUNTRY_CODE:COLOR_CODE
+    // The following variable was automatically generated from
+    // the original dataset that was exported from Excel. The
+    // function written to auto-parse the data can be found in:
+    // "data/datamaker.js"
+    var assignments = {"colors":{"US":1,"CA":1,"GB":1,"AF":1,"AX":1,"AL":1,"DZ":6,"AS":1,"AD":3,"AO":4,"AI":1,"AQ":1,"AG":1,"AR":3,"AM":1,"AW":1,"AU":1,"AT":5,"AZ":1,"BH":6,"BD":1,"BB":1,"BY":1,"BE":2,"BZ":3,"BJ":2,"BM":1,"BT":1,"BO":3,"BQ":1,"BA":1,"BW":1,"BV":1,"BR":4,"IO":1,"VG":1,"BN":1,"BG":1,"BF":2,"BI":2,"KH":1,"CM":2,"CV":4,"KY":1,"CI":2,"CF":2,"TD":2,"CL":3,"CN":8,"CX":1,"CC":1,"CO":3,"KM":2,"CK":1,"CR":3,"HR":1,"CU":3,"CW":1,"CY":1,"CZ":1,"CD":2,"CG":2,"DK":1,"DJ":2,"DM":1,"DO":3,"EC":3,"EG":6,"SV":3,"GQ":4,"ER":6,"EE":1,"ET":1,"FK":1,"FO":1,"FM":1,"FJ":1,"FI":1,"FR":2,"GF":2,"PF":2,"TF":2,"GA":2,"GE":1,"DE":5,"GH":1,"GI":1,"GR":7,"GL":1,"GD":1,"GP":2,"GU":1,"GT":3,"GG":1,"GN":2,"GW":4,"GY":1,"HT":2,"HM":1,"HN":3,"HK":8,"HU":1,"IS":1,"IN":1,"ID":1,"IR":1,"IQ":6,"IE":1,"IM":1,"IL":1,"IT":9,"JM":1,"JP":10,"JE":1,"JO":6,"KZ":1,"KE":1,"KI":1,"XK":1,"KW":6,"KG":1,"LA":1,"LV":1,"LB":1,"LS":1,"LR":1,"LY":6,"LI":5,"LT":1,"LU":2,"MO":1,"MK":1,"MG":2,"MW":1,"MY":1,"MV":1,"ML":2,"MT":1,"MH":1,"MQ":2,"MR":6,"MU":1,"YT":1,"MX":3,"MD":1,"MC":2,"MN":1,"ME":1,"MS":1,"MA":6,"MZ":4,"MM":1,"NA":1,"NR":1,"NP":1,"NL":1,"AN":1,"NC":2,"NZ":1,"NI":3,"NE":2,"NG":1,"NU":1,"NF":1,"KP":11,"MP":1,"NO":1,"OM":6,"PK":1,"PW":1,"PS":6,"PA":3,"PG":1,"PY":3,"PE":3,"PH":1,"PN":1,"PL":1,"PT":4,"PR":1,"QA":6,"RE":2,"RO":1,"RU":1,"RW":1,"BL":1,"SH":1,"KN":1,"MF":1,"PM":1,"VC":1,"WS":1,"SM":9,"ST":4,"SA":6,"SN":2,"RS":1,"SC":1,"SL":1,"SG":1,"SX":1,"SK":1,"SI":1,"SB":1,"SO":1,"ZA":1,"GS":1,"KR":11,"SS":1,"ES":3,"LK":1,"LC":1,"SD":6,"SR":1,"SJ":1,"SZ":1,"SE":12,"CH":5,"SY":6,"TW":8,"TJ":1,"TZ":6,"TH":13,"BS":1,"GM":1,"TL":4,"TG":2,"TK":1,"TO":1,"TT":1,"TN":6,"TR":1,"TM":1,"TC":1,"TV":1,"UG":1,"UA":1,"AE":6,"UM":1,"UY":3,"VI":1,"UZ":1,"VU":1,"VA":9,"VE":3,"VN":1,"WF":2,"EH":1,"YE":6,"ZM":1,"ZW":1}};
+
+
+
+
+    var language_color_assignments = {
+        "0":  '#656565',
+        "1":  '#ffffff',
+        "2":  '#8E0297',
+        "3":  '#D64E5D',
+        "4":  '#58c826',
+        "5":  '#0ED6B4',
+        "6":  '#0391D6',
+        "7":  '#8A0917',
+        "8":  '#ff0036',
+        "9":  '#F09170',
+        "10": '#e72f9f',
+        "11": '#242e8d',
+        "12": '#8484dd',
+        "13": '#ec760e'
+    };
+
+    var language_name_assignments = {
+        "0": 'None',
+        "1": 'English',
+        "2": 'French',
+        "3": 'Spanish',
+        "4": 'Portuguese',
+        "5": 'German',
+        "6": 'Arabic',
+        "7": 'Greek',
+        "8": 'Chinese',
+        "9": 'Italian',
+        "10": 'Japanese',
+        "11": 'Korean',
+        "12": 'Swedish',
+        "13": 'Thai'
+
+    };
+
+    var mapObject;
+
+    $(function(){
+
+            map = new jvm.WorldMap({
+                map: 'world_mill_en',
+                backgroundColor: "#cccccc",
+                container: $('#world-map'),
+                series: {
+                    regions: [{
+                        scale: language_color_assignments,
+                        attribute: 'fill',
+                        values: assignments['colors']
+                    }]
+                },
+                onRegionLabelShow: function(event, label, code){
+                    var colorCode = assignments["colors"][code] != undefined ? assignments["colors"][code].toString() : "1";
+                    label.html(''+label.html()+''+'<br/>Language: '+''+language_name_assignments[colorCode]);
+                }
+            });
+
+        create_color_legend();
+        mapObject = $('#world-map').vectorMap('get', 'mapObject');
+
+
+        $('#reset').click(function(e){
+            e.preventDefault();
+            reset_map();
+        });
+    });
+
+function create_color_legend(){
+    var $el = $('#color_codes #color_wrapper');
+    for (colorcode in language_color_assignments){
+        if (colorcode != "0"){
+            var cc =   language_color_assignments[colorcode];
+            var c =  language_name_assignments[colorcode];
+            var h = '<div class="code_entry"><div class="color" style="background-color:'+cc+';"></div><span class="name">'+c+'</span><span class="numcode">'+colorcode+'</span><span class="x"> [X]</span></div>';
+            $el.append(h);
+        }
+    }
+
+    // add interactivity
+    $('.code_entry').click(function(){
+
+        if (active_filter == undefined){
+            active_filter = $(this);
+            active_filter.find('.x').show();
+            var num = $(this).find('.numcode').text();
+            redrawMap(num);
+        } else if (active_filter == $(this)){
+            // this section is active, disable the filter and reset the map
+            $(this).find('.x').hide();
+            reset_map();
+            active_filter = undefined;
+        } else if ( active_filter != undefined && active_filter != $(this)){
+            // another filter has been activated, disable the old filter first
+            active_filter.find('.x').hide();
+            active_filter = $(this);
+            var num = $(this).find('.numcode').text();
+            redrawMap(num);
+        }
+
+
+        if( $(this).hasClass('active')){
+            reset_map();
+            $(this).removeClass('active');
+            $(this).find('.x').hide();
+        } else {
+            $(this).addClass('active');
+
+            $(this).find('.x').show();
+            redrawMap(num);
+        }
+    });
+
+}
+
+function redrawMap(code){
+
+    var new_assignments = { "colors":{}};
+    for (country_code in assignments["colors"]){
+        if (assignments["colors"][country_code] == code){
+            new_assignments["colors"][country_code] = code;
+        } else {
+            new_assignments["colors"][country_code] = "0";
+        }
+    }
+
+
+    map.series.regions[0].setValues(new_assignments["colors"]);
+    map.backgroundColor = "#5f6060";
+    //console.log(new_assignments);
+
+}
+
+function reset_map(){
+    map.series.regions[0].setValues(assignments["colors"]);
+}
+
+</script>
+</body>
+</html>

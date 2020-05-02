@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteBase /childrensreport/
+RewriteRule ^([^/]*)$ http://unhcr.org/FutureOfSyria/$1 [L]

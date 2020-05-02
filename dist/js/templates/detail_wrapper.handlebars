@@ -1,0 +1,15 @@
+<div id="detail_wrapper_left_curtain" {{#if reloading}}style="left:0%"{{/if}}></div>
+<div id="detail_wrapper_right_curtain" {{#if reloading}}style="right:0%"{{/if}}></div>
+
+<img class="detail_image" src="{{img}}" alt="{{title}}" />
+<div class="text_wrapper">
+    {{#if url}}
+        <a href="{{url}}" {{#if rel}}rel="{{rel}}" class="fancybox launch-btn"{{else}}class="launch-btn" target="_blank"{{/if}}><div class="launch-btn-underlay"></div><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i> Launch</a>
+    {{else}}
+        <a href="#" class="offline"><i class="fa fa-times-circle-o" aria-hidden="true"></i> Offline</a>
+    {{/if}}
+    <h1>{{title}}</h1>
+    <small>{{type}}</small>
+    <p>{{description}}</p>
+    <p class="techs"><b>Technologies:</b> {{techs}}</p>
+</div>

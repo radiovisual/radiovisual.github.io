@@ -1,0 +1,350 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>UNHCR | UNICEF - 1m Syrian Refugee Children Campaign</title>
+
+<link href='http://fonts.googleapis.com/css?family=Merriweather+Sans' rel='stylesheet' type='text/css' />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+
+<script src="js/jquery.scrollTo-1.4.6-min.js" type="text/javascript"></script>
+<script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
+<script src="js/jquery.easing.compatibility.js" type="text/javascript"></script>
+<script src="js/init.js" type="text/javascript"></script>
+<!-- <script src="js/nav.js" type="text/javascript"></script> -->
+<link rel="stylesheet" href="css/styles.css" />
+
+<!-- COLORBOX -->
+<link rel="stylesheet" href="js/colorbox/colorbox.css" />
+<script type="text/javascript" src="js/colorbox/jquery.colorbox.js"></script>
+
+
+<!-- PRELOAD -->
+<script type="text/javascript" src="js/jquery.imgpreload.min.js"></script>
+<script type="text/javascript">
+
+
+var infographic_loop_top_index = 0;
+var italian_img_el;
+
+	$(document).ready(function(){
+		
+		$(".v01").colorbox({inline:true, rel:'group1'});
+		$(".v02").colorbox({inline:true, rel:'group2'});
+		$(".v03").colorbox({inline:true, rel:'group3'});
+		$(".v04").colorbox({inline:true, rel:'group4'});
+		$(".v05").colorbox({inline:true, rel:'group5'});
+		$(".v06").colorbox({inline:true, rel:'group6'});
+		$(".v07").colorbox({inline:true, rel:'group7'});
+		
+		/*
+		$(".v06").colorbox({iframe:true, innerWidth:805, innerHeight:455, rel:'group6', 
+				"onCleanup":function(){
+					$(".cboxIframe").removeAttr("src");
+				}
+		});
+		
+		$(".v07").colorbox({iframe:true, innerWidth:805, innerHeight:455, rel:'group7', 
+				"onCleanup":function(){
+					$(".cboxIframe").removeAttr("src");
+				}});
+		
+		*/
+		var infographicset_top = ["images/infographics/DE-swings.jpg", "images/infographics/UK-swings.jpg", "images/infographics/Spanish-swings.jpg" ];		
+		jQuery.imgpreload(infographicset_top,
+		{			
+			each: function(index)
+			{
+				$('#infographic_loop_top').append($(this).addClass('hiddens').addClass("index"+infographic_loop_top_index).addClass("zindex"+infographic_loop_top_index));
+				infographic_loop_top_index++;
+			},
+			all: function()
+			{
+				infographic_loop_top_index = 2;
+				setInterval(LoopTop, 4000);
+			}
+		});
+		
+		// loop Italian
+		italian_img_el = $('#infographic_loop_bottom img');
+		setInterval(loopItalian, 5000);
+			
+	});
+	
+function LoopTop(){
+	
+	if (infographic_loop_top_index == -1){		
+		infographic_loop_top_index = 2;
+		$('#infographic_loop_top img').eq(2).fadeIn("slow",function(){			
+			$('#infographic_loop_top img').eq(1).show();
+			$('#infographic_loop_top img').eq(0).show();			
+	});	
+	} else {
+		$('#infographic_loop_top img').eq(infographic_loop_top_index).fadeOut("slow");
+		infographic_loop_top_index--;		
+	}	
+				
+}
+
+function loopItalian(){
+	
+	if (italian_img_el != "undefined"){
+		if(italian_img_el.is(':visible')){
+			italian_img_el.fadeOut("slow");	
+		} else {
+			italian_img_el.fadeIn("slow");	
+		}
+	}
+	
+}
+</script>
+
+<!--[if lte IE 8]>
+<style type="text/css">
+	body { letter-spacing:-1px; }
+    #wrapper, #navigation { zoom:1; }
+    ul li { display:inline;}
+</style>
+<![endif]-->
+
+
+
+    <script type="text/javascript">
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+                function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-30741645-1','auto');ga('send','pageview');
+    </script>
+
+</head>
+
+<body>
+
+<div id="debug" style="display:none;"></div>
+
+<div id="top">
+	<div id="header">
+    	<div id="logo"> <img src="images/logo.png" alt="" class="header_large" /><img src="images/logo480.png" alt="" class="header_small" /></div><!-- logo -->
+    </div><!-- header -->	 
+         
+    <div id="navigation">
+    	<ul>
+        	<li class="first"><a href="#this-campaign">This Campaign</a></li>
+            <li><a href="#op-ed">Op-Ed</a></li>
+            <li><a href="#joint-press-release">Press Release</a></li>
+            <li><a href="#website">Website</a></li>
+            <li><a href="#video-coverage">Videos</a></li>
+            <li><a href="#infographics">Infographics</a></li>
+            <li><a href="#photos">Photos</a></li>
+            <li><a href="#social-media">Social Media</a></li>
+            <li><a href="#broadcast-media">Broadcast</a></li>
+            <li><a href="#print-and-online">Print &amp; Online</a></li>
+        </ul>
+    </div><!-- navigation -->
+    
+</div><!-- top -->
+
+
+<div id="wrapper">
+
+<div id="all_content">    
+
+<div id="this-campaign" class="section one"><img src="images/This-Campaign.jpg" alt=""  /></div><!-- this campaign -->
+    <div class="section_break"></div>
+    
+    <div id="op-ed" class="section"><img src="images/Op-Ed-Article.jpg" alt=""   />
+    	<a href="http://www.theguardian.com/commentisfree/2013/aug/23/syria-child-refugees-anger?CMP=twt_gu" target="_blank" class="op-link">&nbsp;</a>
+    	<div class="read_article_button">        	
+        	<a href="http://www.theguardian.com/commentisfree/2013/aug/23/syria-child-refugees-anger?CMP=twt_gu" target="_blank"></a>
+        </div>
+    </div><!-- op-ed -->
+    
+    <div class="section_break"></div>
+    	
+    <div id="joint-press-release" class="section three"><img src="images/Joint-Press-Release.jpg" alt=""   />
+    	<div class="read_press_release_button">        	
+        	<a href="http://www.unicef.org/media/media_70225.html" target="_blank">&nbsp;</a>
+        </div>
+   	</div><!-- joint-press-release -->
+    
+    <div class="section_break"></div>
+    
+    <div id="website" class="section"><img src="images/Children-of-Syria-website.jpg" alt=""  />
+    	<a href="http://www.childrenofsyria.info" target="_blank" class="visit_website_link"></a>
+    	<div class="visit_website_button">        	
+        	<a href="http://www.childrenofsyria.info" target="_blank"></a>
+        </div>
+        
+        <div class="website_link">        	
+        	<a href="http://www.childrenofsyria.info" target="_blank"></a>
+        </div>
+        
+        
+    </div><!-- joint-press-release -->
+    
+    
+    <div class="section_break"></div>
+    <div id="video-coverage" class="section"><img src="images/Video-Coverage.jpg" alt=""   />
+    
+    	<div id="video01"><a href="#video01div" title="" class="v01"></a></div>
+        
+        
+        <div style="display:none">
+        	<div id="video01div">
+        		<iframe width="800" height="450" src="http://www.youtube.com/embed/xpG3jLGGkvc?rel=0" frameborder="0" ></iframe>
+            </div>
+        </div>
+        
+        
+        <div id="video02"><a href="#video02div" title="" class="v02"></a></div>
+        
+        
+        <div style="display:none">
+        	<div id="video02div">
+        		<iframe width="800" height="450" src="http://www.youtube.com/embed/uTH1_DDag8A?rel=0" frameborder="0" ></iframe>
+            </div>
+        </div>
+        
+        
+         <div id="video03"><a href="#video03div" title="" class="v03"></a></div>
+        
+        
+        <div style="display:none">
+        	<div id="video03div">
+        		<iframe width="800" height="450" src="http://www.youtube.com/embed/VZ8No6K4LuE?rel=0" frameborder="0" ></iframe>
+            </div>
+        </div>
+        
+        
+         <div id="video04"><a href="#video04div" title="" class="v04"></a></div>
+        
+        
+        <div style="display:none">
+        	<div id="video04div">
+        		<iframe width="800" height="450" src="http://www.youtube.com/embed/rimcWreqrVg?rel=0" frameborder="0" ></iframe>
+            </div>
+        </div>
+        
+       
+        
+        <div id="video05"><a href="#video05div" title="" class="v05"></a></div>
+        
+        
+        <div style="display:none">
+        	<div id="video05div">
+        		<iframe width="800" height="450" src="http://www.youtube.com/embed/uTH1_DDag8A?rel=0" frameborder="0" ></iframe>
+            </div>
+        </div>
+        
+       
+
+
+
+    
+        
+        
+        
+        <div id="video06"><a href="#video06div" title="" class="v06"></a></div>
+        
+        <div style="display:none">
+        	<div id="video06div">
+        		<iframe width="800" height="450" src="http://www.youtube.com/embed/WKnNW2t2gVc?rel=0" frameborder="0" ></iframe>
+                
+                
+            </div>
+        </div>
+        
+        
+          <div id="video07"><a href="#video07div" title="" class="v07"></a></div>
+        
+        <div style="display:none">
+        	<div id="video07div">
+        		<iframe width="800" height="450" src="http://www.youtube.com/embed/qFsyFxtZicY?rel=0" frameborder="0" ></iframe>
+            </div>
+        </div>
+        
+        
+        
+       <!--  <div id="video07"><a href="testimonialsVideo.html" title="" class="v07"></a></div> --> 
+
+
+        
+        
+
+       
+        
+    </div><!-- video-coverage -->
+    
+    
+    <div class="section_break"></div>
+    
+    <div id="infographics" class="section">
+    	<img src="images/Infographics.jpg" alt=""  />
+    	
+        <div id="infographic_loop_top" class="auto_fade_loop">
+        	
+        </div>
+        
+        <div id="infographic_loop_bottom" class="auto_fade_loop">
+        	 <img src="images/infographics/italian-quote.jpg" alt="" class="hidden" />
+        </div>
+    
+    </div><!-- infographics -->
+    
+    
+    
+    
+    
+    <div class="section_break"></div>
+    <div id="photos" class="section"><img src="images/Photos.jpg"   alt=""/></div><!-- photos -->
+    <div class="section_break"></div>
+    
+    <div id="social-media" class="section">
+    	<img src="images/Social-Media.jpg"  alt="" />
+    	
+        <div id="tweet01">
+        	<a href="https://twitter.com/UNICEF/status/370850406127382528" target="_blank"></a>
+        </div>
+        
+         <div id="tweet02">
+        	<a href="https://twitter.com/Refugees/status/371023261175660544" target="_blank"></a>
+        </div>
+        
+         <div id="tweet03">
+        	<a href="https://twitter.com/UNICEF/status/370758056583626752" target="_blank"></a>
+        </div>
+        
+        
+        <div id="tweet04">
+        	<a href="https://twitter.com/Refugees/status/370797878450855936" target="_blank"></a>
+        </div>
+      
+         <div id="facebook01">
+        	<a href="https://www.facebook.com/photo.php?fbid=10151826438874002&set=pb.68793499001.-2207520000.1381329066.&type=3&theater" target="_blank"></a>
+        </div>
+        
+        <div id="facebook02">
+        	<a href="https://www.facebook.com/photo.php?fbid=10152207019633438&set=pb.13204463437.-2207520000.1381329111.&type=3&theater" target="_blank"></a>
+        </div>
+        
+        
+        
+    </div><!-- social-media -->
+   
+    <div class="section_break"></div>
+    
+    <div id="broadcast-media" class="section"><img src="images/Broadcast-Media-Coverage.jpg" alt=""  /></div><!-- broadcast-media -->
+    <div class="section_break"></div>
+    <div id="print-and-online" class="section"><img src="images/Print-and-Online.jpg"  alt="" /></div><!-- print-and-online -->
+    <div class="footer"></div>
+    
+    <div id="leftshadow"></div>
+    	<div id="rightshadow"></div>
+        
+        </div><!-- all_content -->
+    </div><!-- wrapper -->
+
+</body>
+</html>

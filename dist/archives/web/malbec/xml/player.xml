@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist version="0" xmlns = "http://xspf.org/ns/0/">
+  <trackList>
+
+    <track>
+      <location>audio/Blue.mp3</location>
+      <annotation>&lt;font color="#999999"&gt;Blue&lt;/font&gt;</annotation>
+    </track>
+	<track>
+      <location>audio/Closer.mp3</location>
+      <annotation>&lt;font color="#999999"&gt;Closer&lt;/font&gt;</annotation>
+    </track>
+	<track>
+      <location>audio/Go.mp3</location>
+      <annotation>&lt;font color="#999999"&gt;Go&lt;/font&gt;</annotation>
+    </track>
+	<track>
+      <location>audio/Rectangle.mp3</location>
+      <annotation>&lt;font color="#999999"&gt;Rectangle&lt;/font&gt;</annotation>
+    </track>
+	<track>
+      <location>audio/SaySomething.mp3</location>
+      <annotation>&lt;font color="#999999"&gt;Say Something&lt;/font&gt;</annotation>
+    </track>
+	<track>
+      <location>audio/Solstice.mp3</location>
+      <annotation>&lt;font color="#999999"&gt;Solstice&lt;/font&gt;</annotation>
+    </track>
+	<track>
+      <location>audio/21.mp3</location>
+      <annotation>&lt;font color="#999999"&gt;21&lt;/font&gt;</annotation>
+    </track>
+	<track>
+      <location>audio/KeepItaSecret.mp3</location>
+      <annotation>&lt;font color="#999999"&gt;Keep It a Secret&lt;/font&gt;</annotation>
+    </track>
+	<track>
+      <location>audio/GivenTheTimes.mp3</location>
+      <annotation>&lt;font color="#999999"&gt;Given The Times&lt;/font&gt;</annotation>
+    </track>
+  </trackList>
+</playlist>

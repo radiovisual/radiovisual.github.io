@@ -1,0 +1,29 @@
+/* Classes used by popup box functionality */
+
+.popupBox {
+	position: absolute;
+	visibility: hidden;
+	left: 0px;
+	top: 0px;
+	z-index: 200;
+	border: 1px #696969 solid;
+	background-color: white;
+	padding: 5px;
+	padding-left: 7px;
+}
+
+.popupBoxResponseMessages {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+/* Definitions for specific implemenations of popup boxes */
+
+#lightboxPopupBox {
+	position: absolute;
+	visibility: hidden;
+	width: 210px;
+}
+

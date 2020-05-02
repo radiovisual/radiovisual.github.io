@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<bottomNavigation>
+
+	<link blabel="DVD Promo" link="dvd_promo.php" bWidth="106"/>
+	<link blabel="Mailing List" link="mailing_list.php" bWidth="90"/>
+	<link blabel="Gift of a Visit" link="gift_pastor.php" bWidth="108"/>
+	<link blabel="Resources" link="resources.php" bWidth="108"/>
+	<link blabel="Support Us" link="support_us.php" bWidth="108"/>
+	<link blabel="Testimonials" link="testimonials.php" bWidth="108"/>
+
+
+</bottomNavigation>

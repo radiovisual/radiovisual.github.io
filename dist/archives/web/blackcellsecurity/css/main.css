@@ -1,0 +1,396 @@
+.mainTable {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	height: 100%;
+	width: 892px;
+	margin: 0px;
+	padding: 0px;
+}
+.text_profile {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #999999;
+	margin: 0px;
+	height: 100%;
+	background-color: #000000;
+	text-align: left;
+	text-indent: 0px;
+	width: 434px;
+	vertical-align: top;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	letter-spacing: normal;
+	word-spacing: normal;
+	background-image: url(../images/profile_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.newsDate {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #666666;
+	border-bottom-width: thin;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-top-color: #D4D0C8;
+	border-right-color: #D4D0C8;
+	border-bottom-color: #333333;
+	border-left-color: #D4D0C8;
+}
+.newsDivider {
+	height: 2px;
+	width: 100px;
+	border-bottom-width: thin;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	background-color: #666666;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-left-width: thin;
+}
+.services_InfoText {
+	text-align: left;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+}
+.services_categoryTitle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #999999;
+	text-align: left;
+	height: 25px;
+	background-color: #161616;
+	vertical-align: middle;
+	text-indent: 10px;
+	font-weight: bold;
+}
+.services_TableSpacer {
+	height: 15px;
+}
+
+
+
+.height47 {
+	height: 47px;
+	margin: 0px;
+	padding: 0px;
+	width: 784px;
+}
+.servicesListItem {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #B00000;
+	width: 60px;
+	text-align: left;
+	vertical-align: top;
+	text-indent: 2px;
+}
+.services_mainTable {
+	width: 100%;
+	background-color: #333333;
+	text-align: left;
+	color: #999999;
+}
+.services_subText {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #999999;
+	padding-left: 10px;
+	padding-right: 50px;
+}
+
+
+
+.bottomBorderTD {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	border-bottom-width: thin;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-bottom-color: #000000;
+}
+
+.header {
+	width: 784px;
+	height: 171px;
+	background-color: #000000;
+	border-bottom-width: thin;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-bottom-color: #000000;
+}
+
+.bg_leftTile {
+	background-color: #333333;
+	background-image: url(../images/bg_leftTile.gif);
+	height: 100%;
+	width: 25%;
+	background-repeat: repeat;
+}
+.bg_rightTile {
+	background-color: #333333;
+	background-image: url(../images/bg_rightTile.gif);
+	height: 100%;
+	width: 25%;
+	background-repeat: repeat;
+}
+.lineBreak {
+	background-image: url(../images/lineBreak.gif);
+	background-repeat: repeat-x;
+	margin: 0px;
+	padding: 0px;
+	height: 2px;
+	background-color: #232323;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-top-color: #333333;
+	border-bottom-color: #000000;
+}
+.footerRow {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #CCCCCC;
+	background-color: #000000;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+.stretchBox {
+	background-color: #333333;
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+}
+
+.cadeBar {
+	background-image: url(../images/cadeBar.gif);
+	background-repeat: repeat-x;
+	margin: 0px;
+	padding: 0px;
+	height: 47px;
+	width: 100%;
+}
+.titlePicHolder {
+	background-color: #333333;
+	height: 47px;
+	width: 142px;
+	background-image: url(../images/cadeBar.gif);
+	background-repeat: repeat-x;
+}
+
+.partitionBox {
+	background-image: url(../images/partitionBox.gif);
+	background-repeat: repeat-y;
+	margin: 0px;
+	padding: 0px;
+	width: 28px;
+}
+.bulletBox {
+	background-color: #333333;
+	height: 47px;
+	width: 28px;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+.mainTable_leftBorder {
+	background-color: #000000;
+	background-image: url(../images/mainTable_leftBorder.gif);
+	margin: 0px;
+	padding: 0px;
+	width: 8px;
+}
+
+
+.mainTable_leftGrade {
+	width: 46px;
+	margin: 0px;
+	padding: 0px;
+	background-image: url(../images/leftGrade2.jpg);
+	background-repeat: repeat-y;
+}
+.mainTable_rightGrade {
+	width: 46px;
+	margin: 0px;
+	padding: 0px;
+	background-image: url(../images/rightGrade2.jpg);
+	background-repeat: repeat-y;
+	
+}
+.mainTable_rightBorder {
+	background-color: #000000;
+	background-image: url(../images/mainTable_rightBorder.gif);
+	margin: 0px;
+	padding: 0px;
+	width: 8px;
+}
+.text_news {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666666;
+	margin: 0px;
+	background-color: #000000;
+	width: 254px;
+	text-align: left;
+	vertical-align: top;
+	padding: 0px;
+	height: 280px;
+}
+.newsBox {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #CCCCCC;
+	overflow: scroll;
+	position: relative;
+	visibility: visible;
+	height: 280px;
+	width: 244px;
+	background-image: url(../images/tableGloss_bg_300.gif);
+	background-repeat: repeat-x;
+}
+div.scroll {
+	width: 244px;
+	overflow: auto;
+	background-color: #292929;
+	text-align: left;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	color: #999999;
+	vertical-align: top;
+	background-image: url(../images/tableGloss_bg_300.gif);
+	background-repeat: repeat-x;
+	background-position: top;
+	background-attachment:fixed;
+	height: 280px;
+	
+}
+.text_services {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #999999;
+	margin: 0px;
+	background-color: #000000;
+	width: 583px;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	text-align: left;
+	vertical-align: top;
+}
+.services_tableText {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #999999;
+	text-align: left;
+	vertical-align: top;
+	text-indent: 0px;
+	padding-top: 5px;
+	padding-right: 50px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+}
+.text_contact {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #999999;
+	margin: 0px;
+	background-color: #000000;
+	width: 254px;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	text-align: left;
+	vertical-align: top;
+	background-image: url(../images/contactBg.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+}
+.text_links {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #999999;
+	margin: 0px;
+	height: 100%;
+	background-color: #000000;
+	text-align: left;
+	text-indent: 0px;
+	width: 434px;
+	vertical-align: top;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	letter-spacing: normal;
+	word-spacing: normal;
+	background-image: url(../images/profile_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	font-weight: bold;
+}
+.text_links a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color:#B1231C;
+	text-decoration: none;
+	font-size: 11px;
+	font-weight: normal;
+}
+.text_links a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color:#FF0000;
+	text-decoration: none;
+	font-size: 11px;
+	font-weight: normal;
+}
+.text_contact a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #B1231C;
+	text-decoration:none;
+	
+}
+.text_contact a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FF0000;
+	text-decoration:none;
+	
+}
+.footerRow a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #B1231C;
+	text-decoration:none;
+}
+.footerRow a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FF0000;
+	text-decoration:none;
+}

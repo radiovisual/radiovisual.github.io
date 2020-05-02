@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<navigation>
+		
+		<!-- WHO WE ARE  -->
+		<navSubItem button="are" buttonvalue="Request a Visit" link="request_a_visit.php" />
+		<navSubItem button="are" buttonvalue="Host Couple" link="host_couple.php" />
+		<navSubItem button="are" buttonvalue="Board of Directors" link="board_of_directors.php" />
+		<navSubItem button="are" buttonvalue="Organization" link="organization.php" />
+		<navSubItem button="are" buttonvalue="Statement of Faith" link="statement_of_faith.php" />
+		<navSubItem button="are" buttonvalue="Values" link="values.php" />
+		<navSubItem button="are" buttonvalue="Mission Statement" link="mission_statement.php" />
+		<navSubItem button="are" buttonvalue="About Us" link="about_us.php" />
+		
+		
+		
+		
+		<!-- WHO WE SERVE  -->
+		<navSubItem button="serve" buttonvalue="Testimonials" link="testimonials.php" />
+			<navSubItem button="serve" buttonvalue="GH Expereience" link="gh_experience.php" />
+			<navSubItem button="serve" buttonvalue="Church Planting Pastors" link="Church_Planting_Pastors.php" />
+			<navSubItem button="serve" buttonvalue="Missionary Couples" link="missionary_couples.php" />
+			<navSubItem button="serve" buttonvalue="Inner City Pastors" link="inner_city_pastors.php" />
+		<navSubItem button="serve" buttonvalue="Senior/Solo Pastors" link="full_time_pastors.php" />
+		
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<!-- WHAT YOU WILL SEE & DO -->
+		<navSubItem button="see" buttonvalue="Weather" link="http://www.weather.com/weather/local/USCA1131?lswe=taylorsville&lswa=WeatherLocalUndeclared&whatprefs=" />
+		<navSubItem button="see" buttonvalue="History" link="history.php" />
+		<navSubItem button="see" buttonvalue="Area Map" link="area_map.php" />
+		<navSubItem button="see" buttonvalue="View Our DVD Promo" link="dvd_promo.php" />
+		<navSubItem button="see" buttonvalue="Photos" link="photos.php" />
+		<navSubItem button="see" buttonvalue="Activities" link="activities.php" />
+		
+
+		
+		<!-- HOW TO VISIT US // button="do"-->
+		<navSubItem button="do" buttonvalue="Packing List" link="packing_list.php" />
+		<navSubItem button="do" buttonvalue="Directions" link="driving_directions.php" />
+		<navSubItem button="do" buttonvalue="Scholarships" link="scholarships.php" />
+		<navSubItem button="do" buttonvalue="Available Dates" link="calendar.php" />
+		<navSubItem button="do" buttonvalue="Retreat Package" link="retreat_package.php" />
+		<navSubItem button="do" buttonvalue="Request a Visit" link="request_a_visit.php" />
+		
+		
+
+		
+		<!-- HOW TO FIND US  -->
+		<navSubItem button="find" buttonvalue="Driving Directions" link="driving_directions.php" />
+		<navSubItem button="find" buttonvalue="Address" link="contact.php" />
+		<navSubItem button="find" buttonvalue="Area Map" link="area_map.php" />
+		
+
+		
+		<!-- HOW TO FIND CONTACT US  -->
+		<navSubItem button="contact" buttonvalue="Phone/Fax" link="contact.php" />
+		<navSubItem button="contact" buttonvalue="Email" link="contact.php" />
+		<navSubItem button="contact" buttonvalue="Address" link="contact.php" />
+		<navSubItem button="contact" buttonvalue="Request a Visit" link="request_a_visit.php" />
+		
+</navigation>

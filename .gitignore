@@ -1,3 +1,6 @@
-archive
 node_modules
+.env
+.idea
+.DS_Store
+psd_assets
 TODO.md

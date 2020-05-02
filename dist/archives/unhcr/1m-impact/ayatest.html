@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Aya Speaks Video</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+		
+       
+        <script src="js/mediaelementjs/build/jquery.js"></script>	
+	<script src="js/mediaelementjs/build/mediaelement-and-player.min.js"></script>	
+	<link rel="stylesheet" href="js/mediaelementjs/build/mediaelementplayer.min.css" />
+    
+        
+       
+    
+
+
+    </head>
+    <body>
+
+
+
+
+
+
+		
+<video width="800" height="450" poster="images/Aya-Speaks.jpg" controls="controls" preload="none" id="player">
+    <source type="video/mp4" src="https://s3-eu-west-1.amazonaws.com/unhcr-campaigns/1-millionth-child/Aya_English_subtitles.mp4" />
+    <!-- <source type="video/webm" src="https://s3-eu-west-1.amazonaws.com/unhcr-campaigns/1-millionth-child/Aya_English_subtitles.webm" /> -->
+    <!--<source type="video/ogg" src="myvideo.ogv" />-->
+    
+    <object width="800" height="450" type="application/x-shockwave-flash" data="flashmediaelement.swf">
+        <param name="movie" value="flashmediaelement.swf" /> 
+        <param name="flashvars" value="controls=true&amp;poster=images/Aya-Speaks.jpg&amp;file=https://s3-eu-west-1.amazonaws.com/unhcr-campaigns/1-millionth-child/Aya_English_subtitles.mp4" />        
+        <img src="images/Aya-Speaks.jpg" width="800" height="450" title="No video playback capabilities" />
+    </object>
+</video>
+
+       
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+       
+        
+
+<script>
+
+	var player = new MediaElementPlayer('#player');
+</script>  
+
+
+    </body>
+</html>

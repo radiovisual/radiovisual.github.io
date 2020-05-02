@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Secret Santa : Charity Edition</title>
+
+    <meta property="og:image" content="http://numetriclabs.com/secretsantacharity/images/facebook-meta-image-1400.jpg"/>
+    <meta property="og:url" content="http://numetriclabs.com/secretsantacharity/"/>
+    <meta property="og:title" content="Secret Santa : Charity Edition"/>
+    <meta property="og:description" content="A spin off the original Secret Santa concept where donations to charities are exchanged instead of gifts."/>
+
+
+
+    <!-- <link href='http://fonts.googleapis.com/css?family=Vollkorn:400,700' rel='stylesheet' type='text/css'> -->
+    <link href='http://fonts.googleapis.com/css?family=Arvo:400,700|Signika:400,700' rel='stylesheet' type='text/css' />
+
+    <link rel="stylesheet" href="css/styles5.css" />
+
+    <!--[if lt IE 9]>
+    <link href='css/ie8.css' rel='stylesheet' type='text/css' />
+    <![endif]-->
+
+   <!-- countdown -->
+    <script type="text/javascript" src="js/countdown.5.0.js"></script>
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+
+    <!-- fancybox -->
+    <script type="text/javascript" src="js/fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
+    <link rel="stylesheet" type="text/css" href="js/fancybox/jquery.fancybox.css?v=2.1.5" media="screen" />
+
+    <!-- page scripts -->
+    <script type="text/javascript" src="js/scripts2.js"></script>
+
+    <!-- mediaelement -->
+    <script type="text/javascript" src="js/mediaelement/build/mediaelement-and-player.min.js"></script>
+    <link rel="stylesheet" href="js/mediaelement/build/mediaelementplayer.css" />
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-30741645-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+    </head>
+
+<body>
+
+<noscript><b>THIS WEBSITE REQUIRES JAVASCRIPT</b><br/>You are seeing this message because you have javascript disabled.<br/>Please <a href="http://www.enable-javascript.com/" target="_blank">enable javascript</a> and refresh the page. <em><br/>Happy Holidays!</em></noscript>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=263069007039540&version=v2.0";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+    <div id="player_button_frame">
+        <div id="player_button"><em style="display:none;">X</em></div>
+        <div id="player_frame" style="display:none;">
+            <audio id="player" src="JingleBells.mp3"></audio>
+        </div>
+    </div>
+
+
+
+    <div id="wrapper">
+        <div id="header">
+            <div id="logo"><img src="images/Secret-Santa-Logo-731x359.png" alt="" /></div>
+            <div id="bubble_frame">
+                <div id="speech_bubble" class="rounded-corners">Ho, ho, ho, Happy Holidays everyone! The time for participation in <em>Secret Santa : Charity Edition</em> has ended. We want to thank anyone who participated, and want to remind them that they will receive an email very soon with the charity they have been assigned.
+                    Thank you all for your support! We hope you have a wonderful holiday, and a very happy New Year!   </div>
+            </div><!-- bubble frame -->
+
+            <div id="santa-frame">
+                <div id="santa">
+
+                    <div id="head">
+                        <div id="mouth"></div>
+                        <img src="images/santa-head.png" alt=""/>
+                    </div><!-- head-->
+                    <div id="body"><img src="images/santa-body.png" alt=""/></div>
+                </div><!-- santa -->
+                <div id="snow-bg"></div>
+            </div><!-- santa frame -->
+
+        </div><!-- header -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       <div id="number_of_partcipants">
+           Thanks to your contributions<br/>the following charities will receive gifts from you this holiday season:
+           <div class="list">The International Red Cross<br/>Give Directly<br/>Charity Water<br/>Play Works<br/>UNHCR<br/>American Cancer Society<br/>Motor Neurone Disease Association<br/>GoFundMe.com<br/>UNICEF<br/>CleanWater.org<br/>New Hope Orphanage & Rescue Center<br/>Humane Society International</div>
+           <br>
+           <div id="spread_the_word">Amazing! Thank you!</div>
+          </div><!--number_of_part-->
+
+      <div id="happy_holiday">Happy Holidays!</div>
+</div><!--wrapper-->
+
+
+    <div id="success_notification" style="display: none;">
+        <h4>Thank you for participating <span class="partcipant_name">Tanya</span>!</h4>
+        <p>Your submission has been recorded. You will receive an email with instructions when the entry deadline expires.</p>
+        <strong>Happy Holidays!</strong>
+    </div>
+
+
+<div id="sharing_footer">
+
+    <div id="sharing_frame">
+        <!-- facebook -->
+        <div class="fb-like" data-href="http://numetriclabs.com/secretsantacharity/" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
+
+        <!-- google plus -->
+        <div class="g-plusone" data-size="medium" data-annotation="none"></div>
+
+        <!-- twitter -->
+        <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://goo.gl/KN6Yrl" data-text="Check out this twist on Secret Santa where charities are exchanged instead of gifts." data-count="none">Tweet</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+    </div>
+</div>
+
+<!-- Place this tag in your head or just before your close body tag. -->
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+
+
+
+</body>
+</html>

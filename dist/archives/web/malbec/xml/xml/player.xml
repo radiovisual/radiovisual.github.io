@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist version="0" xmlns = "http://xspf.org/ns/0/">
+  <trackList>
+
+    <track>
+      <location>music/Black_Tangled_Heart.mp3</location>
+      <annotation>&lt;FONT COLOR ="#CC3333"&gt;
+	  
+	  SILVERCHAIR
+	  
+	  &lt;/FONT&gt;&lt;font color = "#FFFFFF"&gt;
+	  
+	   : Black Tangled Heart (Neon Ballroom)
+	   
+	   &lt;/font&gt; </annotation>
+    </track>
+	<track>
+      <location>music/love_ declaration.mp3</location>
+      <annotation>&lt;FONT COLOR ="#CC3333"&gt;
+	  
+	  PAUL MAC
+	  
+	   &lt;/FONT&gt;&lt;font color = "#FFFFFF"&gt;
+	  
+	  : Love Declaration (Panic Room)
+	  
+	 &lt;/font&gt; </annotation>
+    </track>
+	<track>
+      <location>music/MacGorlz2006.mp3</location>
+      <annotation>&lt;FONT COLOR ="#CC3333"&gt;
+	  
+	  PAUL MAC
+	  
+	  &lt;/FONT&gt;&lt;font color = "#FFFFFF"&gt;
+	  
+	  : Gorillaz "Dirty Harry" Remix
+	  
+	  &lt;/font&gt;</annotation>
+    </track>
+	<track>
+      <location>music/take_her_out.mp3</location>
+      <annotation>&lt;FONT COLOR ="#CC3333"&gt;
+	  
+	  I CANT BELIEVE ITS NOT ROCK!
+	  
+	  &lt;/FONT&gt;&lt;font color = "#FFFFFF"&gt;
+	  
+	   : Take Her Out 
+	   
+	   &lt;/font&gt;</annotation>
+    </track>
+	<track>
+      <location>music/We're_Much_Preferred_Customers.mp3</location>
+      <annotation>&lt;FONT COLOR ="#CC3333"&gt;
+	  
+	  THE DISSOCIATIVES
+	  
+	  &lt;/FONT&gt;&lt;font color = "#FFFFFF"&gt;
+	  
+	   : We're Much Preferred Customers (Live at Enmore Theatre) 
+	   
+	   &lt;/font&gt;</annotation>
+    </track>
+
+  </trackList>
+</playlist>

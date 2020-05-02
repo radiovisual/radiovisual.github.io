@@ -1,0 +1,118 @@
+/* http://meyerweb.com/eric/tools/css/reset/ | v2.0 | 20110126 | License: none (public domain) */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}body{line-height:1;}ol,ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}table{border-collapse:collapse;border-spacing:0;}
+
+* { margin:0px; padding:0px;}
+	body { width:100%; background-color:#CCC; color:#fff; font-family: 'Merriweather Sans', sans-serif;  font-weight: 400;  font-size:12px; background-image:url(../images/wallpaper-light-953.jpg);  background-attachment:fixed !important; }
+	
+	#top { background-color:#232323; position:fixed; top:0px; left:0px; width:100%; z-index:5;  }
+	#header { height:79px; width:980px; margin:0px auto;  }
+	#header img { padding-top:3px;}
+	#navigation { margin:0 auto; height:100px; background-color:#1d83bd; height:28px; text-align:center; border-top:solid 1px #0072be; }
+	ul { padding-top:5px;}
+	ul li { list-style:none; display:inline-block; padding-right:20px; margin-top:2px;}
+	
+	
+	
+	 
+	#wrapper { width:100%; height:100%; padding:107px 0px 0px 0px; margin:0px;}
+	#all_content { position:relative; z-index:1; width:980px; margin:0px auto 0px auto; padding:0px; }
+	
+	
+	#navigation a:link, #navigation a:visited {  font-weight:700; color:#fff; text-decoration:none; }
+	#navigation a:hover, #navigation a:active, #navigation a:focus  { color:#dedede; }
+	
+	.section { width:100%; position:relative; }
+	.section img { width:100%; height:auto;}
+	.first { padding-left:20px;}
+	
+
+	.section_break { height:50px; background-color:#1d83bd; width:100%;}
+	.footer {height:100px; background-color:#1d83bd; width:100%;}
+	#leftshadow{  position:absolute; top:0px; left:-49px; background-image:url(../images/left-shadow.png); background-repeat:repeat-y; width:49px; height:100%; z-index:1;}
+	#rightshadow{ position:absolute; top:0px; right:-49px; background-image:url(../images/right-shadow.png); background-repeat:repeat-y; width:49px; height:100%; z-index:1; }
+	
+.header_small { display:none; }
+
+	#debug{ background-color:#fff; color:#000; padding:3px; position:absolute; right:0px; top:0px; z-index:100; }
+
+.read_article_button a { display:block; width:170px; height:30px;  }
+.read_article_button { background-image:url(../images/read-full-article.png); position:absolute; top:881px; left:74px; width:170px; height:30px; background-position:0px 0px; z-index:100; }
+.read_article_button:hover { background-position:0px -30px;}
+a.op-link { display:block; position:absolute; top:203px; left:324px; width:652px; height:805px; z-index:100; background-image:url(../images/white-1-percent-opacity.png);   }
+
+.read_press_release_button { background-image:url(../images/read-press-release.png); position:absolute; top:683px; left:131px; width:170px; height:30px; background-position:0px 0px; z-index:100; }
+.read_press_release_button:hover { background-position:0px -30px;}
+.read_press_release_button a { display:block; width:170px; height:30px;  }
+
+.visit_website_button a { display:block; width:170px; height:30px;  }
+.visit_website_button { background-image:url(../images/visit-website.png); position:absolute; top:803px; left:74px; width:170px; height:30px; background-position:0px 0px; z-index:100; }
+.visit_website_button:hover { background-position:0px -30px;}
+a.visit_website_link { display:block; position:absolute; top:204px; left:327px; width:654px; height:805px; z-index:100; background-image:url(../images/white-1-percent-opacity.png);   }
+
+.website_link{ width:247px; height:45px;  background-image:url(../images/childrenofsyriainfo.png); position:absolute; top:313px; left:35px; background-position:0px 0px; z-index:100; }
+.website_link:hover { background-position:0px -45px;}
+.website_link a  {display:block; width:247px; height:45px; }
+
+
+
+#video01 { width:624px; height:346px;  position:absolute; top:154px; left:30px; z-index:100; }
+#video01:hover { background-image:url(../images/white-20-percent-opacity.png);} 
+#video01 a { display:block; width:100%; height:100%; background-image:url(../images/white-1-percent-opacity.png); }
+#video01div, #video02div, #video03div, #video04div, #video05div, #video06div, #video07div  { background-color:#000; width:800px; height:450px; overflow:hidden; }
+
+#video02 { width:310px; height:175px;  position:absolute; top:504px; left:30px; z-index:100; }
+#video02 a { display:block; width:100%; height:100%;  background-image:url(../images/white-1-percent-opacity.png);  }
+#video02 a:hover { background-image:url(../images/white-20-percent-opacity.png); }
+
+#video03 { width:310px; height:175px;  position:absolute; top:504px; left:344px; z-index:100; }
+#video03:hover { background-image:url(../images/white-20-percent-opacity.png);} 
+#video03 a { display:block; width:100%; height:100%; background-image:url(../images/white-1-percent-opacity.png);  }
+
+#video04 { width:310px; height:175px;  position:absolute; top:685px; left:30px; z-index:100; }
+#video04:hover { background-image:url(../images/white-20-percent-opacity.png);} 
+#video04 a { display:block; width:100%; height:100%; background-image:url(../images/white-1-percent-opacity.png);  }
+
+#video05 { width:310px; height:175px;  position:absolute; top:684px; left:344px; z-index:100; }
+#video05:hover { background-image:url(../images/white-20-percent-opacity.png);} 
+#video05 a { display:block; width:100%; height:100%; background-image:url(../images/white-1-percent-opacity.png);  }
+
+#video06 { width:292px; height:175px;  position:absolute; top:684px; left:658px; z-index:100; }
+#video06:hover { background-image:url(../images/white-20-percent-opacity.png);} 
+#video06 a { display:block; width:100%; height:100%; background-image:url(../images/white-1-percent-opacity.png);}
+
+
+
+#video07 { width:310px; height:175px;  position:absolute; top:863px; left:30px; z-index:100; }
+#video07:hover { background-image:url(../images/white-20-percent-opacity.png);} 
+#video07 a { display:block; width:100%; height:100%; background-image:url(../images/white-1-percent-opacity.png);  }
+
+
+.hidden { display:none; }
+
+
+#infographic_loop_top { position:absolute; width:447px; height:446px; top:363px; left:528px; }
+#infographic_loop_bottom { position:absolute; width:520px; height:520px; top:887px; left:4px; }
+
+.zindex0 { z-index:2; position:absolute; top:0px; left:0px;}
+.zindex1 { z-index:3; position:absolute; top:0px; left:0px;}
+.zindex2 { z-index:4; position:absolute; top:0px; left:0px;}
+.zindex3 { z-index:5; position:absolute; top:0px; left:0px;}
+
+
+#tweet01 a { display:block; width:493px; height:71px; position:absolute; top:242px; left:455px; background-image:url(../images/tweets/tweet01.jpg); background-position:0px 0px; }
+#tweet02 a { display:block; width:493px; height:71px; position:absolute; top:323px; left:455px; background-image:url(../images/tweets/tweet02.jpg); background-position:0px 0px; }
+#tweet03 a { display:block; width:493px; height:71px; position:absolute; top:406px; left:455px; background-image:url(../images/tweets/tweet03.jpg); background-position:0px 0px; }
+#tweet04 a { display:block; width:493px; height:71px; position:absolute; top:488px; left:455px; background-image:url(../images/tweets/tweet04.jpg); background-position:0px 0px; }
+#tweet01 a:hover, #tweet02 a:hover, #tweet03 a:hover, #tweet04 a:hover { background-position:0px -71px; }
+
+#facebook01 a {display:block; width:272px; height:402px; position:absolute; top:749px; left:84px; background-image:url(../images/white-1-percent-opacity.png); z-index:100;}
+#facebook02 a {display:block; width:292px; height:402px; position:absolute; top:749px; left:366px; background-image:url(../images/white-1-percent-opacity.png); z-index:100;}
+#facebook01 a:hover, #facebook02 a:hover { background-image:url(../images/white-20-percent-opacity.png); }
+
+.closest { font-weight:bold !important; color:#FFF !important; background-color:#333; padding:2px; }
+
+
+@media only screen and (max-width: 980px), only screen and (max-device-width: 980px) {
+	#leftshadow{  display:none;}
+	#rightshadow{  display:none; }	
+}

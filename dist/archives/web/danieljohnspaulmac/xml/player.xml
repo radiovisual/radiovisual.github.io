@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist version="0" xmlns = "http://xspf.org/ns/0/">
+  <trackList>
+	<track>
+      <location>../music/07 Black Tangled Heart Silverchair 128kbps</location>
+      <annotation>&lt;FONT COLOR ="#CC3333"&gt;
+	  
+	  SILVERCHAIR
+	  
+	  &lt;/FONT&gt;&lt;font color = "#FFFFFF"&gt;
+	  
+	   : Black Tangled Heart (Neon Ballroom)
+	   
+	   &lt;/font&gt; </annotation>
+    </track>
+	
+	<track>
+      <location>../music/MacGorlz2006.mp3</location>
+      <annotation>&lt;FONT COLOR ="#CC3333"&gt;
+	  
+	  PAUL MAC
+	  
+	  &lt;/FONT&gt;&lt;font color = "#FFFFFF"&gt;
+	  
+	   : Love Declaration
+	   
+	   &lt;/font&gt; </annotation>
+    </track>
+	
+	<track>
+      <location>../music/never_been_before_Paul_Mac_panic_room.mp3</location>
+      <annotation>&lt;FONT COLOR ="#CC3333"&gt;
+	  
+	  SILVERCHAIR
+	  
+	  &lt;/FONT&gt;&lt;font color = "#FFFFFF"&gt;
+	  
+	   : If You Keep Losing Sleep
+	   
+	   &lt;/font&gt; </annotation>
+    </track>
+    
+	<track>
+      <location>../music/Sunshine Eyes_nick_littlemore_pmac_remix.mp3</location>
+      <annotation>&lt;FONT COLOR ="#CC3333"&gt;
+	  
+	 PAUL MAC
+	  
+	  &lt;/FONT&gt;&lt;font color = "#FFFFFF"&gt;
+	  
+	   : Take Her Out
+	   
+	   &lt;/font&gt; </annotation>
+    </track>
+
+  </trackList>
+</playlist>

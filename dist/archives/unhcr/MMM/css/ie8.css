@@ -1,0 +1,10 @@
+
+
+#container { width:980px; height:100%; border:none; margin:0 auto; border-left:solid 3px #CCC; border-right:solid 3px #CCC;}
+
+.box_shadow { 	-moz-box-shadow: none;
+	-webkit-box-shadow:none;
+	box-shadow:  none;
+	-ms-filter: none;
+	filter: none;
+}
