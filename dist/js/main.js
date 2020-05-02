@@ -36,7 +36,7 @@ var projects = [
 	{
 		title: 'Immunity',
 		type: types.WEB_APP,
-		img: 'dist/img/thumbs/_0007_immunity-website.png',
+		img: 'dist/img/thumbs/0007_immunity-website.png',
 		description: 'I designed and developed this website for Immunity, Inc to showcase their many products. The site is built on top of the Metalsmith static site generator for rapid development and deployment. It features a live stream of filtered tweets, realtime blog updates and YouTube postings.',
 		techs: 'Metalsmith, Node.js, HTML/CSS, Gulp, SASS, Photoshop',
 		url: 'http://immunityinc.com'
@@ -44,7 +44,7 @@ var projects = [
 	{
 		title: 'Birdwatch',
 		type: types.MODULE,
-		img: 'dist/img/thumbs/_0019_birdwatch.png',
+		img: 'dist/img/thumbs/0019_birdwatch.png',
 		description: 'Birdwatch helps you fetch, filter, sort, cache and serve specific tweets from specific twitter accounts, thus avoiding any request limits set by the Twitter API, and giving you more control over the data that is served to your applications or websites. Use the built-in server to get you up and running quickly, or switch the server off and use the cache file anyway you like.',
 		techs: 'Node.js, AVA, ES6, Babel, Travis CI, XO',
 		url: 'https://github.com/radiovisual/birdwatch'
@@ -68,7 +68,7 @@ var projects = [
 	{
 		title: 'VisualSploit 2.0',
 		type: types.WEB_APP,
-		img: 'dist/img/thumbs/_0005_visual-sploit.png',
+		img: 'dist/img/thumbs/0005_visual-sploit.png',
 		description: 'I designed and developed the Front-end UI/UX to plug into a Python backend to bring Immunity\'s VisualSploit software to the web. The software itself is property of Immunity Inc, so I don\'t have an online demo, but with Immunity\'s permission, I have posted a screenshot of the working application.',
 		techs: 'JavaScript, Python, HTML/CSS, Photoshop',
 		url: '../archives/immunity/visual-sploit-screenshot.jpg',
@@ -77,7 +77,7 @@ var projects = [
 	{
 		title: 'WebSeige',
 		type: types.WEB_APP,
-		img: 'dist/img/thumbs/_0004_web-siege.png',
+		img: 'dist/img/thumbs/0004_web-siege.png',
 		description: 'I designed the front-end UI/UX to plug into a Python backend to bring Immunity\'s WebSeige software to the web. The software itself is property of Immunity Inc, so I don\'t have an online demo, but with Immunity\'s permission, I have posted a screenshot of the working application.',
 		techs: 'JavaScript, Python, HTML/CSS, Photoshop',
 		url: '../archives/immunity/websiege-screenshot.jpg',
@@ -86,7 +86,7 @@ var projects = [
 	{
 		title: 'Infiltrate Badges',
 		type: types.DESIGN,
-		img: 'dist/img/thumbs/_0006_infiltrate-badges.png',
+		img: 'dist/img/thumbs/0006_infiltrate-badges.png',
 		description: 'I designed the Conference Badges for Immunity\'s Infiltrate Security Conference 2013.',
 		techs: 'Photoshop',
 		url: 'http://www.numetriclabs.com/immunity/AF34BC21DE35CF78DA12/Infiltrate-Badge-Previews.html'
@@ -94,7 +94,7 @@ var projects = [
 	{
 		title: 'Timecard',
 		type: types.NODE,
-		img: 'dist/img/thumbs/_0018__timecard.png',
+		img: 'dist/img/thumbs/0018__timecard.png',
 		description: 'Keep track of your project development time with this handy cross-platform CLI developed in Node.js.',
 		techs: 'Node.js, AVA, ES6, Babel',
 		url: 'https://github.com/radiovisual/timecard'
@@ -102,7 +102,7 @@ var projects = [
 	{
 		title: 'Media Walker',
 		type: types.IOS,
-		img: 'dist/img/thumbs/_0008_media-walker.png',
+		img: 'dist/img/thumbs/0008_media-walker.png',
 		description: 'Use a video\'s subtitles as a remote control for the VLC Media Player. This WIP app will render a simple interface allowing you to use a video\'s subtitle file as a way of navigating and controlling playback of a video in the VLC Media Player, utilizing VLC\'s telnet interface. It was built as a language-learning tool for those who like to use movies as a way to study languages.',
 		techs: 'Node.js, Electron',
 		url: 'https://github.com/radiovisual/media-walker'
@@ -119,7 +119,7 @@ var projects = [
 	{
 		title: 'Stalker',
 		type: types.WEB_APP,
-		img: 'dist/img/thumbs/_0010_stalker.png',
+		img: 'dist/img/thumbs/0010_stalker.png',
 		description: 'A full-scale web application built with the security team at Immunity Inc. I designed and developed the entire front-end and plugged it into their core Python framework. The software itself is property of Immunity Inc, so I don\'t have an online demo, but with Immunity\'s permission, I have posted a screenshot of the application.',
 		techs: 'JavaScript, HTML/CSS, Photoshop',
 		url: '../archives/immunity/StalkerScreenshot.jpg',
@@ -128,7 +128,7 @@ var projects = [
 	{
 		title: 'NPM Lookup',
 		type: types.MODULE,
-		img: 'dist/img/thumbs/_0017_npm-lookup.png',
+		img: 'dist/img/thumbs/0017_npm-lookup.png',
 		description: 'Chrome ContextMenu Extension - Turn selected text on a webpage into a quick npm package lookup. Perfect for quick lookup of JavaScript modules when reading source code on GitHub.',
 		techs: 'JavaScript, Chrome Extension',
 		url: 'https://github.com/radiovisual/github-npm-lookup'
@@ -136,7 +136,7 @@ var projects = [
 	{
 		title: 'Secrets in your Pocket',
 		type: types.DESIGN,
-		img: 'dist/img/thumbs/_0020_secrets-in-your-pocket.png',
+		img: 'dist/img/thumbs/0020_secrets-in-your-pocket.png',
 		description: 'This custom flash presentation was built for Immunity, Inc. The presentation is all about analyzing the wireless data you leak to the public and also highlights the Stalker web application I built with them.',
 		techs: 'Flash, Photoshop, Prezi',
 		rel: 'secrets'
@@ -144,7 +144,7 @@ var projects = [
 	{
 		title: 'What\'s at Stake?',
 		type: types.DESIGN,
-		img: 'dist/img/thumbs/_0013_whats-at-stake.png',
+		img: 'dist/img/thumbs/0013_whats-at-stake.png',
 		description: 'Custom Prezi presentation made for Immunity\'s CEO keynote speech at an upcoming conference entitled "What\'s at Stake?", I designed all the custom characters and graphics.',
 		techs: 'Flash, Photoshop, Prezi',
 		rel: 'stake',
@@ -153,7 +153,7 @@ var projects = [
 	{
 		title: 'Motion in Color',
 		type: types.INTERACTIVE_WEB,
-		img: 'dist/img/thumbs/_0015_motion-in-color.png',
+		img: 'dist/img/thumbs/0015_motion-in-color.png',
 		description: 'This is a physics toy I built as part of my old web portfolio. I used a physics engine for the real-world simulations. It\'s fun to play with, so knock yourself out! Click, drag and throw to interact with the pieces of the app.',
 		techs: 'Box2D, Flash, ActionScript 3.0',
 		rel: 'html-motioncolor',
@@ -162,7 +162,7 @@ var projects = [
 	{
 		title: 'Hanna Lovinda Photography',
 		type: types.INTERACTIVE_WEB,
-		img: 'dist/img/thumbs/_0016_hanna-lovinda.png',
+		img: 'dist/img/thumbs/0016_hanna-lovinda.png',
 		description: 'Flash website designed & developed for the talented Norwegian photographer Hanna Lovinda.',
 		techs: 'Flash, ActionScript 3.0',
 		url: 'http://numetriclabs.com/portfolio/archives/web/hannalovinda/'
@@ -170,7 +170,7 @@ var projects = [
 	{
 		title: 'UNHCR Syria Appeal Video',
 		type: types.VIDEO,
-		img: 'dist/img/thumbs/_0023_Layer-7.png',
+		img: 'dist/img/thumbs/0023_Layer-7.png',
 		description: 'I designed and animated all the package graphics and overlays and assisted with the Video Production for this video highlighting the UNHCR\'s unprecedented Humanitarian appeal for the Syrian Refugees. This video was displayed at the United Nations Palais de Nations in 2013.',
 		techs: 'Photoshop, After Effects, Adobe Premiere',
 		url: 'https://www.youtube.com/watch?v=qvzmMuVWZGs'
@@ -178,7 +178,7 @@ var projects = [
 	{
 		title: 'The Future of Syria',
 		type: types.WEB_APP,
-		img: 'dist/img/thumbs/_0024_Layer-22.png',
+		img: 'dist/img/thumbs/0024_Layer-22.png',
 		description: 'This website was built for the UNHCR to help bring awareness to the children suffering directly from the crisis in Syria. There are stories of refugee children who\'s lives have been forever altered by the crisis, and how they are trying to move forward despite all the horrors they have witnessed. There is a message form that allows visitors to send a message directly to the children living in the Refugee camps.',
 		techs: 'HTML/CSS, JavaScript, Node.js, Heroku',
 		url: '../archives/unhcr/demos/childrensreport/'
@@ -194,7 +194,7 @@ var projects = [
 	{
 		title: 'Refugees Weekly',
 		type: types.WEB,
-		img: 'dist/img/thumbs/_0022_refugees-weekly.png',
+		img: 'dist/img/thumbs/0022_refugees-weekly.png',
 		description: 'I helped develop this internal online memo for the UNHCR staff to be kept up on all the latest press coverage for the various communications teams.',
 		techs: 'HTML/CSS, Javascript, Photoshop',
 		url: 'http://weekly.unhcr.org/june-27-2014/'
@@ -202,7 +202,7 @@ var projects = [
 	{
 		title: 'UNICEF/UNHCR Campaign Coverage Microsite',
 		type: types.WEB,
-		img: 'dist/img/thumbs/_0000_awards-page.png',
+		img: 'dist/img/thumbs/0000_awards-page.png',
 		description: 'A simple microsite I designed and developed for UNICEF and the UNHCR to highlight the Awareness Campaign Coverage and Performance of the Media used to raise awareness of the Syrian Crisis, and the children directly affected.',
 		techs: 'HTML/CSS, Photoshop, JavaScript',
 		url: '../archives/unhcr/awards-page/'
@@ -210,7 +210,7 @@ var projects = [
 	{
 		title: 'UNHCR Multimedia Memo',
 		type: types.WEB,
-		img: 'dist/img/thumbs/_0001_syria-mmm-inforgraphics.png',
+		img: 'dist/img/thumbs/0001_syria-mmm-inforgraphics.png',
 		description: 'This Multimedia Memo was used as an internal weekly roundup of all the Media surrounding the Syria crisis. This memo included weekly photos and videos from Syria and the refugee camps, a weekly infographic to tally the rising number of Refugees fleeing Syria and top news stories and tweets related to the Syria crisis.',
 		techs: 'Photoshop, HTML/CSS, jQuery',
 		url: '../archives/unhcr/MMM/jun13.html'
@@ -218,7 +218,7 @@ var projects = [
 	{
 		title: 'Interactive Map',
 		type: types.INTERACTIVE_WEB,
-		img: 'dist/img/thumbs/_0002_facebook-global-pages.png',
+		img: 'dist/img/thumbs/0002_facebook-global-pages.png',
 		description: 'I built this interactive map for the UNHCR Communications Teams to visualize the global language assignments of their managed facebook accounts.',
 		techs: 'JavaScript, D3.js, HTML/CSS',
 		url: '../archives/unhcr/unhcr-facebook-assignment-map'
@@ -226,14 +226,14 @@ var projects = [
 	{
 		title: 'People Puzzler Demo 01',
 		type: types.IOS,
-		img: 'dist/img/thumbs/_0012_people-puzzler-01.png',
+		img: 'dist/img/thumbs/0012_people-puzzler-01.png',
 		description: 'I designed & developed a prototype iPad application for Time Home Entertainment\'s People Puzzler mobile application. I built a working crossword puzzle and solver application that runs on iOS 3+.',
 		techs: 'Objective-C, XCode'
 	},
 	{
 		title: 'People Puzzler Demo 02',
 		type: types.IOS,
-		img: 'dist/img/thumbs/_0011_people-puzzler-02.png',
+		img: 'dist/img/thumbs/0011_people-puzzler-02.png',
 		description: 'I designed and developed a prototype iPad application for Time Home Entertainment\'s People Puzzler mobile application. I built a working crossword puzzle and solver application that runs on iOS 3+.',
 		techs: 'Objective-C, XCode'
 	},
