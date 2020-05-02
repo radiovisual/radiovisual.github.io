@@ -165,7 +165,7 @@ var projects = [
 		img: 'dist/img/thumbs/0016_hanna-lovinda.png',
 		description: 'Flash website designed & developed for the talented Norwegian photographer Hanna Lovinda.',
 		techs: 'Flash, ActionScript 3.0',
-		url: 'http://numetriclabs.com/portfolio/archives/web/hannalovinda/'
+		url: '../archives/web/hannalovinda/index.html'
 	},
 	{
 		title: 'UNHCR Syria Appeal Video',
